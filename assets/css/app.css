@@ -3,12 +3,19 @@
   src: url("../fonts/CascadiaCode.ttf");
 }
 
+:root {
+  --primary-color: #2a1d2c;
+  --primary-bg-color: #141215;
+  --primary-font-color: #ece3ee;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #141215;
+  background-color: var(--primary-bg-color);
   font-family: CascadiaCode;
+  color: var(--primary-font-color);
 }
 * {
   box-sizing: border-box;
@@ -45,7 +52,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  color: white;
+  color: var(--primary-font-color);
 }
 
 .rest {
@@ -53,11 +60,11 @@ body {
   display: block;
   max-width: 1400px;
   padding: 0 3rem;
-  margin-bottom: 3rem;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
+  background-color: var(--primary-bg-color);
 }
 
-.container-skills { 
+.container-skills {
   display: flex;
   justify-content: center;
   flex-shrink: 3;
@@ -70,13 +77,25 @@ body {
 .skill {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 1rem;
   background-color: rgba(12, 11, 13, 0.9);
-  color: #fff;
+  color: var(--primary-font-color);
   transition: transform 1s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .skill:hover {
   transform: scale(1.04);
-  box-shadow: 0 0 12px 3px #fff;
+  box-shadow: 0 0 12px 3px var(--primary-font-color);
+}
+
+.w-full {
+  width: 100%;
+}
+
+
+.skill > .description{
+
+  width: fit-content;
+  margin-right: 2rem;
 }
