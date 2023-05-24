@@ -1,7 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-/* 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
-
 @font-face {
   font-family: 'CascadiaCode';
   src: url("../fonts/CascadiaCode.ttf");
@@ -19,6 +15,7 @@
 
   --background-color-2: #141215;
   --background-color: #161218;
+  --background-overlay: #28202cee;
 
   --light-grey: rgb(194, 194, 194);
   --border-radius: 30px;
@@ -336,7 +333,7 @@ h2 {
 }
 
 .overlay {
-  background: #a8858fe0;
+  background: var(--background-overlay);
   display: flex;
   flex-direction: column;
   justify-content: end;
