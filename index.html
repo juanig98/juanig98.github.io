@@ -6,194 +6,246 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Ignacio Galarza | juanig98</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/app.css">
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
 
-    <div class="section-1"> </div>
-    <div class="title-profile">
-        <div class="logo">
-            <img src="assets/images/jg.webp" width="260" srcset="" style="border-radius: 50%;">
+    <div class="bg-code"> </div>
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+    <div class="container">
+        <!--=============== NAVIGATION MENU ===============-->
+
+        <div class="menu">
+            <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+            <a href="#about" class="menu-icon fas fa-user"></a>
+            <a href="#projects" class="menu-icon fas fa-code"></a>
+            <a href="#experience" class="menu-icon fas fa-briefcase"></a>
+            <!-- <a href="#contact" class="menu-icon fas fa-envelope"></a> -->
         </div>
 
-        <div class="presentation">
-            <div class="name">Juan Ignacio Galarza</div>
-            <div class="subtitle">Web developer </div>
-            <div class="about-me">
-                👋 Buenas! Me llamo Juan Ignacio y soy Desarrollador Web Full-Stack.
-                Todo empezó con un poco de curiosidad y con el tiempo me fui especializando en distintas tecnologías por
-                las cuales hoy sigo motivado con ésta profesión.
-            </div>
-            <div class="contact">
-                <a href="https://github.com/juanig98">
-                    <img src="assets/images/github.png" width="50" style="border-radius: 50%;">
-                </a>
+        <!--=============== MAIN "WINDOW" ===============-->
 
-                <a href="mailto:juanigalarza98@gmail.com">
-                    <img src="assets/images/email.png" width="50" style="border-radius: 50%;">
-                </a>
-                <a href="https://www.linkedin.com/in/juan-ignacio-galarza-981759183/">
-                    <img src="assets/images/linkedin.svg" width="50" style="border-radius: 50%;">
-                </a>
+        <div class="portfolio">
+            <!--=============== HEADER SECTION ===============-->
 
-            </div>
-        </div>
-    </div>
+            <section class="header">
+                <img class="header-img" src="assets/images/logos/jg.webp" alt="" />
+                <h1>Juan Ignacio Galarza</h1>
+                <h2>Desarrollador FullStack</h2>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/juan-ignacio-galarza-981759183/" target="_blank"
+                        class="fab fa-linkedin-in" id="profile-link"></a>
+                    <a href="https://github.com/juanig98" target="_blank" class="fab fa-github"></a>
+                    <a href="mailto:juanigalarza98@gmail.com" class="fa fa-envelope"></a>
+                    <!-- <a href="#" target="_blank" class="fab fa-codepen"></a> -->
+                </div>
+                <a href="assets/docs/Curriculum Vitae - Galarza Juan Ignacio.pdf"
+                    download="Curriculum Vitae - Galarza Juan Ignacio.pdf" class="cta">Descargar CV</a>
+            </section>
 
+            <!--=============== CONTENT SECTION ===============-->
 
-    <div class="section-2">
+            <div class="content">
+                <!--=============== HOME ===============-->
 
-        <div class="container-skills">
+                <section class="content-card home" id="welcome-section">
+                    <h1>Hola! Soy Juan Ignacio Galarza</h1>
+                </section>
 
-            <div class="w-full">
-                <h1>
-                    Programming languages
-                </h1>
-            </div>
+                <!--=============== ABOUT ME ===============-->
 
-            <div class="skill">
-                <div style="padding:1rem 2rem;height: 25vh;">
-                    <div style="position:relative;width: 180px">
-                        <img src="assets/images/ts.png" width="115" height="115"
-                            style="position:absolute; left: 0px;top:30px;z-index: 5;border-radius:20px;rotate:340deg">
-
-                        <img src="assets/images/js.png" width="115" height="115"
-                            style="position:absolute; left: 60px;top:80px;z-index: 4;border-radius:20px;rotate:5deg">
+                <section class="content-card about" id="about">
+                    <h1>Sobre mi</h1>
+                    <div class="about-item about-me">
+                        <p>
+                            👋 Buenas! Me llamo Juan Ignacio y soy Desarrollador Web Full-Stack.
+                            Todo empezó con un poco de curiosidad y con el tiempo me fui especializando en distintas
+                            tecnologías por las cuales hoy sigo motivado con ésta profesión.
+                        </p>
+                        <p>
+                            Me considero una persona proactiva, curiosa, integra y motivada.
+                        </p>
                     </div>
-                </div>
-                <div class="description">
-                    <h2>JS/TS</h2>
-                    <div>Advanced</div>
-                </div>
+                    <div class="about-item skills">
+                        <h1>Skills</h1>
+                        <span class="skill"><img src="assets/images/logos/javascript.svg"> JavaScript</span>
+                        <span class="skill"><img src="assets/images/logos/typescript.svg"> TypeScript</span>
+                        <span class="skill"><img src="assets/images/logos/python.svg"> Python</span>
+                        <span class="skill"><img src="assets/images/logos/php.svg"> PHP</span>
+                        <span class="skill"><img src="assets/images/logos/java.svg"> Java</span>
+                        <span class="skill"><img src="assets/images/logos/mysql.svg"> MySQL</span>
+                        <span class="skill"><img src="assets/images/logos/sqlserver.svg"> SQLServer</span>
+                        <span class="skill"><img src="assets/images/logos/postgresql.svg"> PostgreSQL</span>
+                        <span class="skill"><img src="assets/images/logos/git.svg"> Git</span>
+                        <span class="skill"><img src="assets/images/logos/subversion.svg"> Subversion</span>
+                        <span class="skill"><img src="assets/images/logos/laravel.svg"> Laravel</span>
+                        <span class="skill"><img src="assets/images/logos/nestjs.svg"> NestJS</span>
+                        <span class="skill"><img src="assets/images/logos/angular.svg"> Angular</span>
+                        <span class="skill"><img src="assets/images/logos/ionic.svg"> Ionic</span>
+                        <span class="skill"><img src="assets/images/logos/django.svg"> Django</span>
+                        <span class="skill"><img src="assets/images/logos/django-rest-framework.png">
+                            Django-rest-framework</span>
+                        <span class="skill"><img src="assets/images/logos/tux.svg"> Unix/Linux</span>
+                        <span class="skill"><img src="assets/images/logos/primeng.svg"> PrimeNG</span>
+                        <span class="skill"><img src="assets/images/logos/prime.png"> PrimeFaces</span>
+                        <span class="skill"><img src="assets/images/logos/jquery.svg"> JQuery</span>
+                        <span class="skill"><img src="assets/images/logos/bootstrap.svg"> Bootstrap</span>
+                        <span class="skill"><img src="assets/images/logos/tailwindcss.svg"> Tailwindcss</span>
+                    </div>
+
+
+                    <div class="col-2">
+                        <div class="about-item languages">
+                            <h1>Idiomas</h1>
+                            <div class="language">
+                                <p>Castellano/Español</p>
+                                <span class="bar"><span class="spanish"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>Inglés</p>
+                                <span class="bar"><span class="english"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--=============== PROJECTS ===============-->
+
+                <section class="content-card projects" id="projects">
+                    <h1>Algunos de mis proyectos</h1>
+                    <div class="col-2 project-list">
+                        <div class="project-tile">
+                            <img src="assets/images/captures/repuestosgalarza.png" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>POS Respuestos Galarza</h3>
+                                    <p>
+                                        POS Repuestos Galarza incluye el registro de clientes, cuentas
+                                        corrientes, productos (inventario), módulos de facturación,
+                                        de presupuestación, de reportes y consolidación semanal.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="assets/images/captures/creditin.png" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>CreditinApp</h3>
+                                    <p>
+                                        CreditinApp es una aplicación de gestión de operaciones e inventario para una
+                                        empresa de Compra-Venta de artículos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="assets/images/captures/dimec.png" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Portal de servicios SIGAM</h3>
+                                    <p>
+                                        El portal de servicios SIGAM es una aplicación web que permite la consulta de
+                                        los estudios médicos realizados en un centro de atención. Entre sus funciones,
+                                        permite visualizar informes realizados y sus imágenes. Ofrece accesos
+                                        diferentes para pacientes, médicos y profesionales de la salud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="assets/images/captures/colas.png" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Colas (calculadora)</h3>
+                                    <p>
+                                        Es un pequeño proyecto realizado en PyQt5. Inspirado en la planilla de cálculo
+                                        "QUEUING TEMPLATES" (David W. Ashley). En dicha planilla se tratan los siguiente
+                                        modelos de colas: M/M/S, M/M/S con tamaño de cola finita, M/M/S con tamaño de
+                                        población finita y M/G/1.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/juanig98">Ver más...</a>
+                </section>
+
+                <!--=============== EXPERIENCE ===============-->
+
+                <section class="content-card experience" id="experience">
+                    <h1>Mis experiencias</h1>
+                    <div class="timeline">
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2021 - hoy</div>
+                                <div class="timeline-content">
+                                    <h3>Municipalidad de Concordia</h3>
+                                    <p>
+                                        Actualmente también me encuentro trabajando en el municipio de mi ciudad.
+                                        Realizando desarrollo de software, principalmente en entorno web.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2020 - hoy</div>
+                                <div class="timeline-content">
+                                    <h3>Mis proyectos personales</h3>
+                                    <p>
+                                        A medida que adquirí conocimientos, me sentí en mayor confianza como para
+                                        lanzarme a realizar trabajos propios que me dieron otra perspectiva sobre está
+                                        gran profesión.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2015 - hoy</div>
+                                <div class="timeline-content">
+                                    <h3>Repuestos y Servicios Galarza Hnos.</h3>
+                                    <p>
+                                        Comencé a trabajar en la empresa de mi familia, haciendo manejo administrativo,
+                                        realizando encomiendas, atendiendo a clientes, entre las tareas cotidianas.
+                                        Con el pasar del tiempo adquirí conocimientos, tanto de la lógica del negocio
+                                        como de programación, lo que desembocó en el desarrollo del
+                                        sistema administrativo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--=============== CONTACT ===============-->
+<!-- 
+                <section class="content-card contact" id="contact">
+                    <h1>Contact</h1>
+                    <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="input-box">
+                            <input type="text" class="text-input" name="name" placeholder="Name" />
+                        </div>
+                        <div class="input-box">
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="input-box">
+                            <input type="subject" class="text-input" name="subject" id="subject"
+                                placeholder="Subject" />
+                        </div>
+                        <div class="input-box">
+                            <textarea name="text" class="message" placeholder="Message..."></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" class="submit-btn" id="submit" value="submit" />
+                        </div>
+                    </form>
+                </section> -->
             </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/java.png" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>Java</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/php.png" width="150" height="150"></div>
-                <div class="description">
-                    <h2>PHP</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/python.png" width="150" height="150"></div>
-                <div class="description">
-                    <h2>Python</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/sql.png" width="150" height="150"></div>
-                <div class="description">
-                    <h2>SQL</h2>
-                    <div>Advanced</div>
-                </div>
-            </div>
-
-
-
-            <div class="w-full">
-                <h1>
-                    Frameworks I use
-                </h1>
-            </div>
-
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/angular.svg" width="150" height="150"></div>
-                <div class="description">
-                    <h2>Angular</h2>
-                    <div>Advanced</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/nestjs.svg" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>NestJS</h2>
-                    <div>Advanced</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/ionic.svg" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>Ionic</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/laravel.svg" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>Laravel</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/django.svg" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>Django</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/django-rest-framework.png" width="150" height="150">
-                </div>
-
-                <div class="description">
-                    <h2>Django-rest-framework</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/prime.png" width="150" height="130"></div>
-
-                <div class="description">
-                    <h2>PrimeFaces/PrimeNg</h2>
-                    <div>Advanced</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/bootstrap.png" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>Bootstrap</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div style="padding:2rem"><img src="assets/images/tailwindcss.png" width="150" height="150"></div>
-
-                <div class="description">
-                    <h2>TailwindCSS</h2>
-                    <div>Intermediate</div>
-                </div>
-            </div>
-
         </div>
     </div>
 </body>
