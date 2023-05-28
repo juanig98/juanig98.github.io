@@ -9,8 +9,8 @@ Soy Juan Ignacio Galarza, un apasionado/a de la tecnología y la programación. 
 ## Contacto
 Si deseas contactarme, puedes hacerlo a través de los siguientes canales:
 
-- Correo Electrónico: tu_correo_electronico@example.com
-- LinkedIn: Tu Nombre en LinkedIn
+- Correo Electrónico: juanigalarza98@gmail.com
+- LinkedIn: [Juan Igancio Galarza](https://www.linkedin.com/in/juan-ignacio-galarza-981759183/)
 
 No dudes en contactarme si tienes alguna pregunta, sugerencia o simplemente quieres saludar.
 
