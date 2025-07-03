@@ -1,267 +1,1041 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Ignacio Galarza | juanig98</title>
-    <link rel="shortcut icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <!-- Font Awesome CDN  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Juan Ignacio Galarza | juanig98</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="Juan Ignacio Galarza Developer" />
+	<meta name="author" content="Juan Ignacio Galarza" />
+
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="assets/images/android-chrome-512x512.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/icomoon.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+	<div class="bg-code"> </div>
 
-    <div class="bg-code"> </div>
-    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+	<div id="jg-page">
+		<div class="container-wrap">
+			<a href="#" class="js-jg-nav-toggle jg-nav-toggle" data-toggle="collapse" data-target="#navbar"
+				aria-expanded="false" aria-controls="navbar"><i></i></a>
+			<aside id="jg-aside" role="complementary" class="border js-fullheight">
+				<div class="text-center">
+					<div class="author-img" style="background-image: url(assets/images/jg.webp);"></div>
+					<h1 id="jg-logo"><a href="index.html">Juan Ignacio Galarza</a></h1>
+					<span class="position">Desarrollador FullStack</span>
+				</div>
+				<nav id="jg-main-menu" role="navigation" class="navbar">
+					<div id="navbar" class="collapse">
+						<ul>
+							<li class="active"><a href="#" data-nav-section="inicio">Inicio</a></li>
+							<li><a href="#" data-nav-section="sobre-mi">Sobre mi</a></li>
+							<li><a href="#" data-nav-section="servicios">Servicios</a></li>
+							<li><a href="#" data-nav-section="skills">Skills</a></li>
+							<li><a href="#" data-nav-section="educacion">Educación</a></li>
+							<li><a href="#" data-nav-section="experiencia">Experiencia</a></li>
+							<li><a href="#" data-nav-section="trabajo">Trabajo</a></li>
+							<li><a href="#" data-nav-section="contacto">Contacto</a></li>
+						</ul>
+					</div>
+				</nav>
 
-    <div class="container">
-        <!--=============== NAVIGATION MENU ===============-->
+				<div class="jg-footer">
+					<ul>
+						<li><a href="https://www.facebook.com/juani.galarza1/"><i class="icon-facebook2"></i></a></li>
+						<li><a href="https://www.instagram.com/juanigalarza/"><i class="icon-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/juan-ignacio-galarza-981759183/"><i
+									class="icon-linkedin2"></i></a></li>
+						<li><a href="https://github.com/juanig98"><i class="icon-github"></i></a></li>
+						<li><a href="mailto:juanigalarza98@gmail.com"><i class="icon-mail5"></i></a></li>
+					</ul>
+				</div>
 
-        <div class="menu">
-            <a href="#welcome-section" class="menu-icon fas fa-home"></a>
-            <a href="#about" class="menu-icon fas fa-user"></a>
-            <a href="#projects" class="menu-icon fas fa-code"></a>
-            <a href="#experience" class="menu-icon fas fa-briefcase"></a>
-            <!-- <a href="#contact" class="menu-icon fas fa-envelope"></a> -->
-        </div>
+			</aside>
 
-        <!--=============== MAIN "WINDOW" ===============-->
+			<div id="jg-main">
 
-        <div class="portfolio">
-            <!--=============== HEADER SECTION ===============-->
+				<section id="jg-hero" class="js-fullheight" data-section="inicio">
+					<div class="presentation js-fullheight">
 
-            <section class="header">
-                <img class="header-img" src="assets/images/logos/jg.webp" alt="" />
-                <h1>Juan Ignacio Galarza</h1>
-                <h2>Desarrollador FullStack</h2>
-                <div class="socials">
-                    <a href="https://www.linkedin.com/in/juan-ignacio-galarza-981759183/" target="_blank"
-                        class="fab fa-linkedin-in" id="profile-link"></a>
-                    <a href="https://github.com/juanig98" target="_blank" class="fab fa-github"></a>
-                    <a href="mailto:juanigalarza98@gmail.com" class="fa fa-envelope"></a>
-                    <!-- <a href="#" target="_blank" class="fab fa-codepen"></a> -->
-                </div>
-                <a href="assets/docs/Curriculum Vitae - Galarza Juan Ignacio.pdf"
-                    download="Curriculum Vitae - Galarza Juan Ignacio.pdf" class="cta">Descargar CV</a>
-            </section>
+						<h1>
+							<b>
+								Hola! <br>
+								Soy Juan Ignacio Galarza <br>
+								Bienvenid@ a mi sitio <br>
+							</b>
+						</h1>
 
-            <!--=============== CONTENT SECTION ===============-->
+						<a href="#sobre-mi" class="mouse">
+							<span class="mouse-icon">
+								<span class="mouse-wheel"></span>
+							</span>
+						</a>
+					</div>
+				</section>
 
-            <div class="content">
-                <!--=============== HOME ===============-->
+				<section class="jg-about" data-section="sobre-mi">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+										<div class="about-desc">
+											<span class="heading-meta">¿Quién soy?</span>
+											<h2 class="jg-heading">Sobre mí</h2>
+											<p>Hola! Soy <b><i>Juan Ignacio Galarza</i></b> y soy Desarrollador
+												Full-Stack. Me encanta la tecnología,
+												sobre todo programar. Todo empezó con un poco de curiosidad y con el
+												tiempo me fui especializando en distintas tecnologías por las cuales hoy
+												sigo motivado con ésta profesión.</p>
+											<p>Comencé a programar en el año 2018 y durante todo este trayecto he
+												aprendido muchisimo (y lo sigo haciendo).</p>
+											<p>Me considero una persona proactiva, curiosa, integra y motivada. Siempre
+												intento dar lo mejor de mí y aportar al objetivo principal.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+										<div class="services color-2">
+											<span class="icon2"><i style="font-weight: bolder;"
+													class="icon-html-five"></i></span>
+											<h3>Diseño web</h3>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+										<div class="services color-3">
+											<span class="icon2"><i style="font-weight: bolder;"
+													class="icon-data"></i></span>
+											<h3>Bases de datos</h3>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+										<div class="services color-4">
+											<span class="icon2"><i style="font-weight: bolder;"
+													class="icon-phone3"></i></span>
+											<h3>Software</h3>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+										<div class="services color-1">
+											<span class="icon2"><i style="font-weight: bolder;"
+													class="icon-bulb"></i></span>
+											<h3>Automatización</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                <section class="content-card home" id="welcome-section">
-                    <h1>Hola! Soy Juan Ignacio Galarza</h1>
-                </section>
+				<section class="jg-services" data-section="servicios">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">¿Qué es lo que hago?</span>
+								<h2 class="jg-heading">Algunos de mis conocimientos</h2>
+							</div>
+						</div>
+						<div class="row row-pt-md">
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-1">
+									<span class="icon">
+										<i class="icon-bulb"></i>
+									</span>
+									<div class="desc">
+										<h3>Análisis de requerimientos</h3>
+										<p>Identifico y documento necesidades para crear soluciones claras y efectivas
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-2">
+									<span class="icon">
+										<i class="icon-code"></i>
+									</span>
+									<div class="desc">
+										<h3>Desarrollo de software</h3>
+										<p>Desarrollo aplicaciones robustas, escalables y personalizadas con enfoque en
+											calidad.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-5">
+									<span class="icon">
+										<i class="icon-layers2"></i>
+									</span>
+									<div class="desc">
+										<h3>Despliegue de aplicaciones</h3>
+										<p>Implemento aplicaciones de forma eficiente, asegurando su disponibilidad y
+											estabilidad.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-4">
+									<span class="icon">
+										<i class="icon-data"></i>
+									</span>
+									<div class="desc">
+										<h3>Mantenimiento de servidores</h3>
+										<p>Gestiono y optimizo servidores para garantizar su seguridad y rendimiento</p>
+									</div>
+								</div>
+							</div>
 
-                <!--=============== ABOUT ME ===============-->
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-3">
+									<span class="icon">
+										<i class="icon-html-five"></i>
+									</span>
+									<div class="desc">
+										<h3>Diseño de páginas web</h3>
+										<p>Diseño sitios modernos y responsivos, enfocados en experiencia y rendimiento.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-6">
+									<span class="icon">
+										<i class="icon-cog"></i>
+									</span>
+									<div class="desc">
+										<h3>Automatización de tareas</h3>
+										<p>Desarrollo scripts y procesos para optimizar flujos y reducir tareas
+											repetitivas.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                <section class="content-card about" id="about">
-                    <h1>Sobre mi</h1>
-                    <div class="about-item about-me">
-                        <p>
-                            👋 Buenas! Me llamo Juan Ignacio y soy Desarrollador Web Full-Stack.
-                            Todo empezó con un poco de curiosidad y con el tiempo me fui especializando en distintas
-                            tecnologías por las cuales hoy sigo motivado con ésta profesión.
-                        </p>
-                        <p>
-                            Me considero una persona proactiva, curiosa, integra y motivada.
-                        </p>
-                    </div>
-                    <div class="about-item skills">
-                        <h1>Skills</h1>
-                        <span class="skill"><img src="assets/images/logos/javascript.svg"> JavaScript</span>
-                        <span class="skill"><img src="assets/images/logos/typescript.svg"> TypeScript</span>
-                        <span class="skill"><img src="assets/images/logos/python.svg"> Python</span>
-                        <span class="skill"><img src="assets/images/logos/php.svg"> PHP</span>
-                        <span class="skill"><img src="assets/images/logos/java.svg"> Java</span>
-                        <span class="skill"><img src="assets/images/logos/mysql.svg"> MySQL</span>
-                        <span class="skill"><img src="assets/images/logos/sqlserver.svg"> SQLServer</span>
-                        <span class="skill"><img src="assets/images/logos/postgresql.svg"> PostgreSQL</span>
-                        <span class="skill"><img src="assets/images/logos/git.svg"> Git</span>
-                        <span class="skill"><img src="assets/images/logos/subversion.svg"> Subversion</span>
-                        <span class="skill"><img src="assets/images/logos/laravel.svg"> Laravel</span>
-                        <span class="skill"><img src="assets/images/logos/nestjs.svg"> NestJS</span>
-                        <span class="skill"><img src="assets/images/logos/angular.svg"> Angular</span>
-                        <span class="skill"><img src="assets/images/logos/ionic.svg"> Ionic</span>
-                        <span class="skill"><img src="assets/images/logos/django.svg"> Django</span>
-                        <span class="skill"><img src="assets/images/logos/django-rest-framework.png">
-                            Django-rest-framework</span>
-                        <span class="skill"><img src="assets/images/logos/tux.svg"> Unix/Linux</span>
-                        <span class="skill"><img src="assets/images/logos/primeng.svg"> PrimeNG</span>
-                        <span class="skill"><img src="assets/images/logos/prime.png"> PrimeFaces</span>
-                        <span class="skill"><img src="assets/images/logos/jquery.svg"> JQuery</span>
-                        <span class="skill"><img src="assets/images/logos/bootstrap.svg"> Bootstrap</span>
-                        <span class="skill"><img src="assets/images/logos/tailwindcss.svg"> Tailwindcss</span>
-                    </div>
+				<div id="jg-counter" class="jg-counters" data-stellar-background-ratio="0.5">
+					<div class="overlay"></div>
+					<div class="jg-narrow-content">
+						<div class="row">
+						</div>
+						<div class="row">
+							<div class="col-md-3 text-center animate-box">
+								<span class="jg-counter js-counter" data-from="0" data-to="1366" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="jg-counter-label">Mates 🧉</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="jg-counter js-counter" data-from="0" data-to="36" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="jg-counter-label">Proyectos</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="jg-counter js-counter" data-from="0" data-to="8" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="jg-counter-label">Clientes</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="jg-counter js-counter" data-from="0" data-to="1" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="jg-counter-label">Socio</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="jg-skills" data-section="skills">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Mis especialidades</span>
+								<h2 class="jg-heading animate-box">Skills</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<p>
+									👨‍💻 Soy un apasionado del desarrollo de software con experiencia en análisis de
+									requerimientos, diseño web y mantenimiento de servidores. Mi enfoque está en crear
+									soluciones eficientes y escalables, automatizar procesos y asegurar el despliegue
+									exitoso de aplicaciones. Cada proyecto es una oportunidad para combinar creatividad,
+									lógica y tecnología, entregando resultados que generan valor.
+								</p>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/typescript.svg"> TypeScript </h3>
+									<div class="progress">
+										<div class="progress-bar color-typescript" role="progressbar" aria-valuenow="78"
+											aria-valuemin="0" aria-valuemax="100" style="width:78%">
+											<span>78%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/javascript.svg"> JavaScript </h3>
+									<div class="progress">
+										<div class="progress-bar color-javascript" role="progressbar" aria-valuenow="70"
+											aria-valuemin="0" aria-valuemax="100" style="width:70%">
+											<span>70%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/python.svg"> Python </h3>
+									<div class="progress">
+										<div class="progress-bar color-python" role="progressbar" aria-valuenow="58"
+											aria-valuemin="0" aria-valuemax="100" style="width:58%">
+											<span>58%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/c-sharp.svg"> C# </h3>
+									<div class="progress">
+										<div class="progress-bar color-c-sharp" role="progressbar" aria-valuenow="41"
+											aria-valuemin="0" aria-valuemax="100" style="width:41%">
+											<span>41%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/php.svg"> php </h3>
+									<div class="progress">
+										<div class="progress-bar color-php" role="progressbar" aria-valuenow="63"
+											aria-valuemin="0" aria-valuemax="100" style="width:63%">
+											<span>63%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/java.svg"> Java </h3>
+									<div class="progress">
+										<div class="progress-bar color-java" role="progressbar" aria-valuenow="53"
+											aria-valuemin="0" aria-valuemax="100" style="width:53%">
+											<span>53%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/mysql.svg"> MySQL </h3>
+									<div class="progress">
+										<div class="progress-bar color-mysql" role="progressbar" aria-valuenow="76"
+											aria-valuemin="0" aria-valuemax="100" style="width:76%">
+											<span>76%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/sqlserver.svg"> SQLServer </h3>
+									<div class="progress">
+										<div class="progress-bar color-sqlserver" role="progressbar" aria-valuenow="83"
+											aria-valuemin="0" aria-valuemax="100" style="width:83%">
+											<span>83%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/postgresql.svg"> PostgreSQL </h3>
+									<div class="progress">
+										<div class="progress-bar color-postgresql" role="progressbar" aria-valuenow="38"
+											aria-valuemin="0" aria-valuemax="100" style="width:38%">
+											<span>38%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/tux.svg"> Unix/Linux </h3>
+									<div class="progress">
+										<div class="progress-bar color-tux" role="progressbar" aria-valuenow="59"
+											aria-valuemin="0" aria-valuemax="100" style="width:59%">
+											<span>59%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/subversion.svg"> SVN </h3>
+									<div class="progress">
+										<div class="progress-bar color-subversion" role="progressbar" aria-valuenow="71"
+											aria-valuemin="0" aria-valuemax="100" style="width:71%">
+											<span>71%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/git.svg"> Git </h3>
+									<div class="progress">
+										<div class="progress-bar color-git" role="progressbar" aria-valuenow="66"
+											aria-valuemin="0" aria-valuemax="100" style="width:66%">
+											<span>66%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/nestjs.svg"> NestJS </h3>
+									<div class="progress">
+										<div class="progress-bar color-nestjs" role="progressbar" aria-valuenow="84"
+											aria-valuemin="0" aria-valuemax="100" style="width:84%">
+											<span>84%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/angular.svg"> Angular </h3>
+									<div class="progress">
+										<div class="progress-bar color-angular" role="progressbar" aria-valuenow="78"
+											aria-valuemin="0" aria-valuemax="100" style="width:78%">
+											<span>78%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/net.svg"> .NET </h3>
+									<div class="progress">
+										<div class="progress-bar color-net" role="progressbar" aria-valuenow="60"
+											aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											<span>60%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/django.svg"> django </h3>
+									<div class="progress">
+										<div class="progress-bar color-django" role="progressbar" aria-valuenow="45"
+											aria-valuemin="0" aria-valuemax="100" style="width:45%">
+											<span>45%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/django-rest-framework.png"> django-rest-framework </h3>
+									<div class="progress">
+										<div class="progress-bar color-django-rest-framework" role="progressbar"
+											aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width:57%">
+											<span>57%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/laravel.svg"> Laravel </h3>
+									<div class="progress">
+										<div class="progress-bar color-laravel" role="progressbar" aria-valuenow="62"
+											aria-valuemin="0" aria-valuemax="100" style="width:62%">
+											<span>62%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/ionic.svg"> Ionic </h3>
+									<div class="progress">
+										<div class="progress-bar color-ionic" role="progressbar" aria-valuenow="36"
+											aria-valuemin="0" aria-valuemax="100" style="width:36%">
+											<span>36%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/primeng.svg"> PrimeNG </h3>
+									<div class="progress">
+										<div class="progress-bar color-primeng" role="progressbar" aria-valuenow="84"
+											aria-valuemin="0" aria-valuemax="100" style="width:84%">
+											<span>84%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/primefaces.svg"> PrimeFaces </h3>
+									<div class="progress">
+										<div class="progress-bar color-primefaces" role="progressbar" aria-valuenow="63"
+											aria-valuemin="0" aria-valuemax="100" style="width:63%">
+											<span>63%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/jquery.svg"> JQuery </h3>
+									<div class="progress">
+										<div class="progress-bar color-jquery" role="progressbar" aria-valuenow="69"
+											aria-valuemin="0" aria-valuemax="100" style="width:69%">
+											<span>69%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/bootstrap.svg"> Bootstrap </h3>
+									<div class="progress">
+										<div class="progress-bar color-bootstrap" role="progressbar" aria-valuenow="77"
+											aria-valuemin="0" aria-valuemax="100" style="width:77%">
+											<span>77%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><img src="assets/images/tailwindcss.svg"> Tailwindcss </h3>
+									<div class="progress">
+										<div class="progress-bar color-tailwindcss" role="progressbar"
+											aria-valuenow="54" aria-valuemin="0" aria-valuemax="100" style="width:54%">
+											<span>54%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<section class="jg-education" data-section="educacion">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Educación</span>
+								<h2 class="jg-heading animate-box">Educación</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<div class="fancy-collapse-panel">
+									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingThree">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+														href="#collapseThree" aria-expanded="false"
+														aria-controls="collapseThree">Titulo de Licenciado en Sistemas
+														(Edu.
+														Universitaria)
+													</a>
+												</h4>
+											</div>
+											<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+												aria-labelledby="headingThree">
+												<div class="panel-body">
+													<p>
+														01/2016 - actualidad
+													</p>
+													<p>Facultad de Ciencias de la Administración (U.N.E.R.) </p>
+													<p>Estudiante de quinto año de la carrera de Licenciatura en
+														Sistemas de la Facultad de Ciencias de la
+														Administración, Universidad Nacional de Entre Ríos. (Monseñor
+														Tavella 1424, Concordia, Entre Ríos,
+														Argentina).</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingFour">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+														href="#collapseFour" aria-expanded="false"
+														aria-controls="collapseFour">Titulo de Programador (Edu.
+														Universitaria)
+													</a>
+												</h4>
+											</div>
+											<div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+												aria-labelledby="headingFour">
+												<div class="panel-body">
+													<p>
+														01/2016 - 03/2023
+													</p>
+													<p>Facultad de Ciencias de la Administración (U.N.E.R.) </p>
+													<p>
+														Programador en Sistemas de la Facultad de Ciencias de la
+														Administración, Universidad Nacional de Entre Ríos. (Monseñor
+														Tavella 1424, Concordia, Entre Ríos,
+														Argentina) .</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingFive">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+														href="#collapseFive" aria-expanded="false"
+														aria-controls="collapseFive">Bachiller en "Economía y
+														Administración" (Edu. Secundaria)
+													</a>
+												</h4>
+											</div>
+											<div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+												aria-labelledby="headingFive">
+												<div class="panel-body">
+													<p> Instituto Nuestra Señora de los Ángeles D-53
+														Egresado en Escuela de Educación Primaria Instituto Nuestra
+														Señora de los Ángeles D-53 (Sarmiento
+														824, Concordia, Entre Ríos, Argentina)</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="jg-experience" data-section="experiencia">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Experiencia</span>
+								<h2 class="jg-heading animate-box">Experiencia laboral</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="timeline-centered">
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-2">
+												<i class="icon-pen2"></i>
+											</div>
+											<div class="timeline-label">
+												<h2><a href="#">Ethofy</a>
+													<span>(2023-hoy)</span>
+												</h2>
+												<p>Actualmente también me encuentro trabajando en Ethofy realizando
+													trabajos de automatización e integración de tareas.</p>
+											</div>
+										</div>
+									</article>
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-3">
+												<i class="icon-pen2"></i>
+											</div>
+											<div class="timeline-label">
+												<h2><a href="https://concordia.gob.ar/">Municipalidad de Concordia</a>
+													<span>(2021-2023)</span>
+												</h2>
+												<p>En 2021 me uní al equipo de desarrollo de la Municipalidad de
+													Concordia. Realizando desarrollo de software, principalmente en
+													entorno web, donde aprendí muchisimo sobre distintas tareas que
+													puede realizar un profesional en sistemas. Durante este período
+													realice tareas de desarrollo de software, diseño de arquitecturas de
+													proyecto, trabajos de mantenimiento, manejo de base de datos,
+													despliegue de aplicaciones, configuración de servidores, entre
+													otras.</p>
+											</div>
+										</div>
+									</article>
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-4">
+												<i class="icon-pen2"></i>
+											</div>
+											<div class="timeline-label">
+												<h2><a href="https://github.com/juanig98">Mis proyectos personales</a>
+													<span>(2020-hoy)</span>
+												</h2>
+												<p>A medida que adquirí conocimientos, me sentí en mayor confianza como
+													para lanzarme a realizar trabajos propios que me dieron otra
+													perspectiva sobre esta gran profesión.</p>
+											</div>
+										</div>
+									</article>
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-5">
+												<i class="icon-pen2"></i>
+											</div>
+											<div class="timeline-label">
+												<h2><a href="https://repuestosgalarza.com.ar">Repuestos y Servicios
+														Galarza Hnos.</a>
+													<span>(2015-hoy)</span>
+												</h2>
+												<p>Comencé a trabajar en la empresa de mi familia, haciendo manejo
+													administrativo, realizando encomiendas, atendiendo a clientes, entre
+													las tareas cotidianas. Con el pasar del tiempo adquirí
+													conocimientos, tanto de la lógica del negocio como de programación,
+													lo que desembocó en el desarrollo del sistema administrativo.</p>
+											</div>
+										</div>
+									</article>
+
+									<article class="timeline-entry begin animate-box"
+										data-animate-effect="fadeInBottom">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-none">
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="jg-work" data-section="trabajo">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">En que ocupo mi tiempo</span>
+								<h2 class="jg-heading animate-box">Mis trabajos</h2>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="project" style="background-image: url(assets/images/img_01.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#">Adm. Galarza Hnos.</a></h3>
+											<span>Sistema de gestión administrativo</span>
+											<hr />
+											<p>
+												Adm. Galarza Hnos. incluye el registro de clientes, cuentas corrientes,
+												productos (inventario), módulos de facturación, de presupuestación, de
+												reportes y consolidación semanal.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+								<div class="project" style="background-image: url(assets/images/img_03.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#">Portal de Servicios SIGAM</a></h3>
+											<span>Aplicación web</span>
+											<hr>
+											<p>
+												El portal de servicios SIGAM es una aplicación web que permite la
+												consulta de los estudios médicos realizados en un centro de atención.
+												Entre sus funciones, permite visualizar informes realizados y sus
+												imágenes. Ofrece accesos diferentes para pacientes, médicos y
+												profesionales de la salud.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+								<div class="project" style="background-image: url(assets/images/img_04.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#">Adm. Creditin</a></h3>
+											<span>Sistema de gestión administrativo</span>
+											<hr />
+											<p>
+												Adm. Creditin es una aplicación de gestión de operaciones e inventario
+												para una empresa de Compra-Venta de artículos.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="project" style="background-image: url(assets/images/img_05.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="https://taller.galarzahnos.com.ar">Galarza Hnos. Servicios</a>
+											</h3>
+											<span>Sitio web</span>
+											<hr>
+											<p class="icon">
+												<span>
+													<a href="#" data-url="https://taller.galarzahnos.com.ar"
+														data-title="Galarza Hnos. Servicios" class="shareButton">
+														<i class="icon-share3"></i>
+														Compartir
+													</a>
+												</span>
+												<span>
+													<a href="https://taller.galarzahnos.com.ar">
+														<i class="icon-eye"></i>
+														Visitar
+													</a>
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(assets/images/img_06.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="https://lalpack.com.ar">LALpack encomiendas</a></h3>
+											<span>Sitio web</span>
+											<hr>
+											<p class="icon">
+												<span>
+													<a href="#" data-url="https://lalpack.com.ar"
+														data-title="LALpack encomiendas" class="shareButton">
+														<i class="icon-share3"></i>
+														Compartir
+													</a>
+												</span>
+												<span>
+													<a href="https://lalpack.com.ar">
+														<i class="icon-eye"></i>
+														Visitar
+													</a>
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(assets/images/img_07.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="https://repuestos.galarzahnos.com.ar">Repuestos Galarza
+													Hnos.</a></h3>
+											<span>Sitio web</span>
+											<hr>
+											<p class="icon">
+												<span>
+													<a href="#" data-url="https://repuestos.galarzahnos.com.ar"
+														data-title="Repuestos Galarza Hnos." class="shareButton">
+														<i class="icon-share3"></i>
+														Compartir
+													</a>
+												</span>
+												<span>
+													<a href="https://repuestos.galarzahnos.com.ar">
+														<i class="icon-eye"></i>
+														Visitar
+													</a>
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(assets/images/img_08.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="https://juanig98safepass.netlify.app/">SafePass</a></h3>
+											<span>Sitio web</span>
+											<hr>
+											<p>
+												SafePass es un sitio web conceptual desarrollado para un trabajo
+												práctico de diseño web donde se proponía realizar un diseño particular
+												basandosé en algun sitio existente. En mi caso tomé como referencia el
+												sitio de <a href="https://stonehaven-llc.com/"
+													style="color: white;">Stonehaven</a>
+											</p>
+											<p class="icon">
+												<span>
+													<a href="#" data-url="https://juanig98safepass.netlify.app/"
+														data-title="SafePass" class="shareButton">
+														<i class="icon-share3"></i>
+														Compartir
+													</a>
+												</span>
+												<span>
+													<a href="https://juanig98safepass.netlify.app/">
+														<i class="icon-eye"></i>
+														Visitar
+													</a>
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(assets/images/img_02.png);">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="https://github.com/juanig98/FCAD-UNER">Colas (calculadora)</a>
+											</h3>
+											<span>Aplicación de escritorio</span>
+											<hr />
+											<p>Es un pequeño proyecto realizado en PyQt5. Inspirado en la planilla de
+												cálculo "QUEUING TEMPLATES" (David W. Ashley). En dicha planilla se
+												tratan los siguiente modelos de colas: M/M/S, M/M/S con tamaño de cola
+												finita, M/M/S con tamaño de población finita y M/G/1.</p>
+											<p class="icon">
+
+												<span>
+													<a href="https://github.com/juanig98/FCAD-UNER">
+														<i class="icon-eye"></i>
+														Visitar
+													</a>
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 
-                    <div class="col-2">
-                        <div class="about-item languages">
-                            <h1>Idiomas</h1>
-                            <div class="language">
-                                <p>Castellano/Español</p>
-                                <span class="bar"><span class="spanish"></span></span>
-                            </div>
-                            <div class="language">
-                                <p>Inglés</p>
-                                <span class="bar"><span class="english"></span></span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+					</div>
+				</section>
 
-                <!--=============== PROJECTS ===============-->
+				<section class="jg-contact" data-section="contacto">
+					<div class="jg-narrow-content">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Por si quieres comunicarte conmigo</span>
+								<h2 class="jg-heading">Contacto</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<div class="jg-feature jg-feature-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="jg-icon">
+										<i class="icon-mail5"></i>
+									</div>
+									<div class="jg-text">
+										<p><a href="mailto:juanigalarza98@gmail.com">juanigalarza98@gmail.com</a></p>
+									</div>
+								</div>
 
-                <section class="content-card projects" id="projects">
-                    <h1>Algunos de mis proyectos</h1>
-                    <div class="col-2 project-list">
-                        <div class="project-tile">
-                            <img src="assets/images/captures/repuestosgalarza.png" alt="" />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <h3>POS Respuestos Galarza</h3>
-                                    <p>
-                                        POS Repuestos Galarza incluye el registro de clientes, cuentas
-                                        corrientes, productos (inventario), módulos de facturación,
-                                        de presupuestación, de reportes y consolidación semanal.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-tile">
-                            <img src="assets/images/captures/creditin.png" alt="" />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <h3>CreditinApp</h3>
-                                    <p>
-                                        CreditinApp es una aplicación de gestión de operaciones e inventario para una
-                                        empresa de Compra-Venta de artículos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-tile">
-                            <img src="assets/images/captures/dimec.png" alt="" />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <h3>Portal de servicios SIGAM</h3>
-                                    <p>
-                                        El portal de servicios SIGAM es una aplicación web que permite la consulta de
-                                        los estudios médicos realizados en un centro de atención. Entre sus funciones,
-                                        permite visualizar informes realizados y sus imágenes. Ofrece accesos
-                                        diferentes para pacientes, médicos y profesionales de la salud.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-tile">
-                            <img src="assets/images/captures/colas.png" alt="" />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <h3>Colas (calculadora)</h3>
-                                    <p>
-                                        Es un pequeño proyecto realizado en PyQt5. Inspirado en la planilla de cálculo
-                                        "QUEUING TEMPLATES" (David W. Ashley). En dicha planilla se tratan los siguiente
-                                        modelos de colas: M/M/S, M/M/S con tamaño de cola finita, M/M/S con tamaño de
-                                        población finita y M/G/1.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://github.com/juanig98">Ver más...</a>
-                </section>
+								<div class="jg-feature jg-feature-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="jg-icon">
+										<i class="icon-map"></i>
+									</div>
+									<div class="jg-text">
+										<p>San Lorenzo (oeste) 939, Concordia, Entre Ríos</p>
+									</div>
+								</div>
 
-                <!--=============== EXPERIENCE ===============-->
+								<div class="jg-feature jg-feature-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="jg-icon">
+										<i class="icon-phone"></i>
+									</div>
+									<div class="jg-text">
+										<p><a href="tel:+543456262300">+54 345 6 262-300</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7 col-md-push-1">
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+										data-animate-effect="fadeInRight">
+										<form action="">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Nombre">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control"
+													placeholder="Correo electrónico">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Asunto">
+											</div>
+											<div class="form-group">
+												<textarea name="" id="message" cols="30" rows="7" class="form-control"
+													placeholder="Mensaje"></textarea>
+											</div>
+											<div class="form-group">
+												<input type="submit" class="btn btn-primary btn-send-message"
+													value="Enviar">
+											</div>
+										</form>
+									</div>
 
-                <section class="content-card experience" id="experience">
-                    <h1>Mis experiencias</h1>
-                    <div class="timeline">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-date">2023 - hoy</div>
-                                <div class="timeline-content">
-                                    <h3>Ethofy</h3>
-                                    <p>
-                                        Actualmente también me encuentro trabajando en Ethofy realizando trabajos de
-                                        automatización e integración de tareas.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-date">2021 - 2023</div>
-                                <div class="timeline-content">
-                                    <h3>Municipalidad de Concordia</h3>
-                                    <p>
-                                        En 2021 me uní al equipo de desarrollo de la Municipalidad de Concordia.
-                                        Realizando desarrollo de software, principalmente en entorno web, donde aprendí
-                                        muchisimo sobre distintas tareas que puede realizar un profesional en sistemas.
-                                        Durante este período realice tareas de desarrollo de software, diseño de
-                                        arquitecturas de proyecto, trabajos de mantenimiento, manejo de base de datos,
-                                        despliegue de aplicaciones, configuración de servidores, entre otras.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-date">2020 - hoy</div>
-                                <div class="timeline-content">
-                                    <h3>Mis proyectos personales</h3>
-                                    <p>
-                                        A medida que adquirí conocimientos, me sentí en mayor confianza como para
-                                        lanzarme a realizar trabajos propios que me dieron otra perspectiva sobre esta
-                                        gran profesión.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-date">2015 - hoy</div>
-                                <div class="timeline-content">
-                                    <h3>Repuestos y Servicios Galarza Hnos.</h3>
-                                    <p>
-                                        Comencé a trabajar en la empresa de mi familia, haciendo manejo administrativo,
-                                        realizando encomiendas, atendiendo a clientes, entre las tareas cotidianas.
-                                        Con el pasar del tiempo adquirí conocimientos, tanto de la lógica del negocio
-                                        como de programación, lo que desembocó en el desarrollo del
-                                        sistema administrativo.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                <!--=============== CONTACT ===============-->
-                <!-- 
-                <section class="content-card contact" id="contact">
-                    <h1>Contact</h1>
-                    <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
-                        <div class="input-box">
-                            <input type="text" class="text-input" name="name" placeholder="Name" />
-                        </div>
-                        <div class="input-box">
-                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
-                        </div>
-                        <div class="input-box">
-                            <input type="subject" class="text-input" name="subject" id="subject"
-                                placeholder="Subject" />
-                        </div>
-                        <div class="input-box">
-                            <textarea name="text" class="message" placeholder="Message..."></textarea>
-                        </div>
-                        <div class="input-box">
-                            <input type="submit" class="submit-btn" id="submit" value="submit" />
-                        </div>
-                    </form>
-                </section> -->
-            </div>
-        </div>
-    </div>
+				<a href="https://wa.me/5493456262300?text=Hola Juani!%20Quer%C3%ADa%20consultarte%20por..."
+					class="whatsapp" target="_blank"> <i class="icon icon-whatsapp"></i></a>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/modernizr-2.6.2.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.countTo.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
