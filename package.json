@@ -1,0 +1,36 @@
+{
+  "name": "juanig98.github.io",
+  "version": "3.0.0-alpha1",
+  "description": "Personal page",
+  "homepage": "https://github.com/juanig98/juanig98.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/juanig98/juanig98.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanig98/juanig98.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Juan Ignacio Galarza",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build:sass": "sass src/styles/main.scss dist/styles.css",
+    "copy:html": "cp src/index.html dist/index.html",
+    "copy:data": "cp -r src/data dist/data",
+    "copy:js": "cp src/js/app.js dist/js/app.js",
+    "copy:vendor": "cp -r src/vendor dist/vendor",
+    "build": "vite build && npm run build:sass && npm run copy:data && npm run copy:js && npm run copy:vendor && npm run copy:html",
+    "deploy": "npm run build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "vite": "^7.0.1"
+  }
+}

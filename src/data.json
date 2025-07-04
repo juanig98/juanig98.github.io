@@ -1,0 +1,351 @@
+{
+    "about": {
+        "meta": "¿Quién soy?",
+        "title": "Sobre mí",
+        "paragraphs": [
+            "Hola! Soy Juan Ignacio Galarza y soy Desarrollador Full-Stack. Me encanta la tecnología, sobre todo programar. Todo empezó con un poco de curiosidad y con el tiempo me fui especializando en distintas tecnologías por las cuales hoy sigo motivado con ésta profesión.",
+            "Comencé a programar en el año 2018 y durante todo este trayecto he aprendido muchisimo (y lo sigo haciendo).",
+            "Me considero una persona proactiva, curiosa, integra y motivada. Siempre intento dar lo mejor de mí y aportar al objetivo principal."
+        ],
+        "interests": [
+            {
+                "icon": "icon-html-five",
+                "title": "Diseño web"
+            },
+            {
+                "icon": "icon-data",
+                "title": "Bases de datos"
+            },
+            {
+                "icon": "icon-phone3",
+                "title": "Software"
+            },
+            {
+                "icon": "icon-bulb",
+                "title": "Automatización"
+            }
+        ]
+    },
+    "services": {
+        "meta": "¿Qué es lo que hago?",
+        "title": "Algunos de mis conocimientos",
+        "items": [
+            {
+                "icon": "icon-bulb",
+                "title": "Análisis de requerimientos",
+                "description": "Identifico y documento necesidades para crear soluciones claras y efectivas"
+            },
+            {
+                "icon": "icon-code",
+                "title": "Desarrollo de software",
+                "description": "Desarrollo aplicaciones robustas, escalables y personalizadas con enfoque en calidad."
+            },
+            {
+                "icon": "icon-layers2",
+                "title": "Despliegue de aplicaciones",
+                "description": "Implemento aplicaciones de forma eficiente, asegurando su disponibilidad y estabilidad."
+            },
+            {
+                "icon": "icon-data",
+                "title": "Mantenimiento de servidores",
+                "description": "Gestiono y optimizo servidores para garantizar su seguridad y rendimiento"
+            },
+            {
+                "icon": "icon-html-five",
+                "title": "Diseño de páginas web",
+                "description": "Diseño sitios modernos y responsivos, enfocados en experiencia y rendimiento."
+            },
+            {
+                "icon": "icon-cog",
+                "title": "Automatización de tareas",
+                "description": "Desarrollo scripts y procesos para optimizar flujos y reducir tareas repetitivas."
+            }
+        ]
+    },
+    "counters": [
+        {
+            "label": "Mates 🧉",
+            "to": 1366
+        },
+        {
+            "label": "Proyectos",
+            "to": 36
+        },
+        {
+            "label": "Clientes",
+            "to": 8
+        },
+        {
+            "label": "Socio",
+            "to": 1
+        }
+    ],
+    "skills": {
+        "meta": "Mis especialidades",
+        "title": "Skills",
+        "description": "👨‍💻 Soy un apasionado del desarrollo de software con experiencia en análisis de requerimientos, diseño web y mantenimiento de servidores. Mi enfoque está en crear soluciones eficientes y escalables, automatizar procesos y asegurar el despliegue exitoso de aplicaciones. Cada proyecto es una oportunidad para combinar creatividad, lógica y tecnología, entregando resultados que generan valor.",
+        "items": [
+            {
+                "name": "TypeScript",
+                "image": "assets/images/typescript.svg",
+                "percentage": 78
+            },
+            {
+                "name": "JavaScript",
+                "image": "assets/images/javascript.svg",
+                "percentage": 70
+            },
+            {
+                "name": "Python",
+                "image": "assets/images/python.svg",
+                "percentage": 58
+            },
+            {
+                "name": "C#",
+                "image": "assets/images/c-sharp.svg",
+                "percentage": 41
+            },
+            {
+                "name": "php",
+                "image": "assets/images/php.svg",
+                "percentage": 63
+            },
+            {
+                "name": "Java",
+                "image": "assets/images/java.svg",
+                "percentage": 53
+            },
+            {
+                "name": "MySQL",
+                "image": "assets/images/mysql.svg",
+                "percentage": 76
+            },
+            {
+                "name": "SQLServer",
+                "image": "assets/images/sqlserver.svg",
+                "percentage": 83
+            },
+            {
+                "name": "PostgreSQL",
+                "image": "assets/images/postgresql.svg",
+                "percentage": 38
+            },
+            {
+                "name": "Unix/Linux",
+                "image": "assets/images/tux.svg",
+                "percentage": 59
+            },
+            {
+                "name": "SVN",
+                "image": "assets/images/subversion.svg",
+                "percentage": 71
+            },
+            {
+                "name": "Git",
+                "image": "assets/images/git.svg",
+                "percentage": 66
+            },
+            {
+                "name": "NestJS",
+                "image": "assets/images/nestjs.svg",
+                "percentage": 84
+            },
+            {
+                "name": "Angular",
+                "image": "assets/images/angular.svg",
+                "percentage": 78
+            },
+            {
+                "name": ".NET",
+                "image": "assets/images/net.svg",
+                "percentage": 60
+            },
+            {
+                "name": "django",
+                "image": "assets/images/django.svg",
+                "percentage": 45
+            },
+            {
+                "name": "django-rest-framework",
+                "image": "assets/images/django-rest-framework.png",
+                "percentage": 57
+            },
+            {
+                "name": "Laravel",
+                "image": "assets/images/laravel.svg",
+                "percentage": 62
+            },
+            {
+                "name": "Ionic",
+                "image": "assets/images/ionic.svg",
+                "percentage": 36
+            },
+            {
+                "name": "PrimeNG",
+                "image": "assets/images/primeng.svg",
+                "percentage": 84
+            },
+            {
+                "name": "PrimeFaces",
+                "image": "assets/images/primefaces.svg",
+                "percentage": 63
+            },
+            {
+                "name": "JQuery",
+                "image": "assets/images/jquery.svg",
+                "percentage": 69
+            },
+            {
+                "name": "Bootstrap",
+                "image": "assets/images/bootstrap.svg",
+                "percentage": 77
+            },
+            {
+                "name": "Tailwindcss",
+                "image": "assets/images/tailwindcss.svg",
+                "percentage": 54
+            }
+        ]
+    },
+    "education": {
+        "meta": "Educación",
+        "title": "Educación",
+        "items": [
+            {
+                "title": "Licenciatura en Sistemas (Edu. Universitaria)",
+                "period": "01/2016 - actualidad",
+                "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                "description": "Estudiante de quinto año de la carrera de Licenciatura en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos. (Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)."
+            },
+            {
+                "title": "Programador Universitario (Edu. Universitaria)",
+                "period": "01/2016 - 03/2023",
+                "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                "description": "Programador en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos. (Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)."
+            },
+            {
+                "title": "Bachiller en Economía y Administración (Edu. Secundaria)",
+                "period": null,
+                "institution": "Instituto Nuestra Señora de los Ángeles D-53",
+                "description": "Egresado del Instituto Nuestra Señora de los Ángeles D-53 (Sarmiento 824, Concordia, Entre Ríos, Argentina)."
+            }
+        ]
+    },
+    "experience": {
+        "meta": "Experiencia",
+        "title": "Experiencia laboral",
+        "items": [
+            {
+                "company": "Ethofy",
+                "period": "2023 - hoy",
+                "url": null,
+                "description": "Actualmente también me encuentro trabajando en Ethofy realizando trabajos de automatización e integración de tareas.",
+                "icon": "icon-pen2",
+                "color": "color-2"
+            },
+            {
+                "company": "Municipalidad de Concordia",
+                "period": "2021 - 2023",
+                "url": "https://concordia.gob.ar/",
+                "description": "En 2021 me uní al equipo de desarrollo de la Municipalidad de Concordia. Realizando desarrollo de software, principalmente en entorno web. Durante este período realicé tareas de desarrollo, diseño de arquitecturas, mantenimiento, manejo de bases de datos, despliegue y configuración de servidores.",
+                "icon": "icon-pen2",
+                "color": "color-3"
+            },
+            {
+                "company": "Mis proyectos personales",
+                "period": "2020 - hoy",
+                "url": "https://github.com/juanig98",
+                "description": "A medida que adquirí conocimientos, me sentí en mayor confianza como para lanzarme a realizar trabajos propios que me dieron otra perspectiva sobre esta gran profesión.",
+                "icon": "icon-pen2",
+                "color": "color-4"
+            },
+            {
+                "company": "Repuestos y Servicios Galarza Hnos.",
+                "period": "2015 - hoy",
+                "url": "https://repuestosgalarza.com.ar",
+                "description": "Comencé a trabajar en la empresa de mi familia, haciendo tareas administrativas, encomiendas y atención al cliente. Luego desarrollé el sistema administrativo del negocio aplicando mis conocimientos en programación.",
+                "icon": "icon-pen2",
+                "color": "color-5"
+            }
+        ]
+    },
+    "projects": {
+        "meta": "En que ocupo mi tiempo",
+        "title": "Mis trabajos",
+        "items": [
+            {
+                "title": "Adm. Galarza Hnos.",
+                "subtitle": "Sistema de gestión administrativo",
+                "description": "Adm. Galarza Hnos. incluye el registro de clientes, cuentas corrientes, productos (inventario), módulos de facturación, de presupuestación, de reportes y consolidación semanal.",
+                "image": "assets/images/img_01.png"
+            },
+            {
+                "title": "Portal de Servicios SIGAM",
+                "subtitle": "Aplicación web",
+                "description": "El portal de servicios SIGAM es una aplicación web que permite la consulta de los estudios médicos realizados en un centro de atención. Entre sus funciones, permite visualizar informes realizados y sus imágenes. Ofrece accesos diferentes para pacientes, médicos y profesionales de la salud.",
+                "image": "assets/images/img_03.png"
+            },
+            {
+                "title": "Adm. Creditin",
+                "subtitle": "Sistema de gestión administrativo",
+                "description": "Adm. Creditin es una aplicación de gestión de operaciones e inventario para una empresa de Compra-Venta de artículos.",
+                "image": "assets/images/img_04.png"
+            },
+            {
+                "title": "Galarza Hnos. Servicios",
+                "subtitle": "Sitio web",
+                "url": "https://taller.galarzahnos.com.ar",
+                "image": "assets/images/img_05.png"
+            },
+            {
+                "title": "LALpack encomiendas",
+                "subtitle": "Sitio web",
+                "url": "https://lalpack.com.ar",
+                "image": "assets/images/img_06.png"
+            },
+            {
+                "title": "Repuestos Galarza Hnos.",
+                "subtitle": "Sitio web",
+                "url": "https://repuestos.galarzahnos.com.ar",
+                "image": "assets/images/img_07.png"
+            },
+            {
+                "title": "SafePass",
+                "subtitle": "Sitio web",
+                "description": "SafePass es un sitio web conceptual desarrollado para un trabajo práctico de diseño web donde se proponía realizar un diseño particular basandosé en algún sitio existente. En mi caso tomé como referencia el sitio de Stonehaven.",
+                "url": "https://juanig98safepass.netlify.app/",
+                "image": "assets/images/img_08.png"
+            },
+            {
+                "title": "Colas (calculadora)",
+                "subtitle": "Aplicación de escritorio",
+                "description": "Proyecto realizado en PyQt5. Inspirado en la planilla de cálculo 'QUEUING TEMPLATES' (David W. Ashley). Se abordan modelos como M/M/S, M/M/S con cola finita, M/M/S con población finita y M/G/1.",
+                "url": "https://github.com/juanig98/FCAD-UNER",
+                "image": "assets/images/img_02.png"
+            }
+        ]
+    },
+    "contact": {
+        "meta": "Por si quieres comunicarte conmigo",
+        "title": "Contacto",
+        "info": [
+            {
+                "type": "email",
+                "icon": "icon-mail5",
+                "value": "juanigalarza98@gmail.com",
+                "href": "mailto:juanigalarza98@gmail.com"
+            },
+            {
+                "type": "address",
+                "icon": "icon-map",
+                "value": "San Lorenzo (oeste) 939, Concordia, Entre Ríos"
+            },
+            {
+                "type": "phone",
+                "icon": "icon-phone",
+                "value": "+54 345 6 262-300",
+                "href": "tel:+543456262300"
+            }
+        ]
+    }
+}
