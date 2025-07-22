@@ -16,17 +16,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build:sass": "sass src/styles/main.scss dist/styles.css",
-    "copy:html": "cp src/index.html dist/index.html",
-    "copy:data": "cp -r src/data dist/data",
-    "copy:js": "cp src/js/app.js dist/js/app.js",
-    "copy:vendor": "cp -r src/vendor dist/vendor",
-    "build": "vite build && npm run build:sass && npm run copy:data && npm run copy:js && npm run copy:vendor && npm run copy:html",
+    "build:sass": "sass src/scss:dist/assets",
+    "build": "vite build",
     "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "alpinejs": "^3.14.9"
+    "@popperjs/core": "^2.11.8",
+    "alpinejs": "^3.14.9",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.7",
+    "gsap": "^3.13.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",

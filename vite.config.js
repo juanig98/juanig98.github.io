@@ -5,9 +5,24 @@ export default defineConfig({
     root: 'src',
     build: {
         outDir: '../dist',
-        emptyOutDir: true
+        emptyOutDir: true,
     },
     server: {
         open: true
-    }
+    },
+    css: {
+        
+        preprocessorOptions: {
+            scss: {
+                silenceDeprecations: [
+                    'import',
+                    'mixed-decls',
+                    'color-functions',
+                    'global-builtin',
+                ],
+            },
+
+        },
+
+    },
 })

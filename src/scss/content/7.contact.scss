@@ -1,0 +1,36 @@
+.tab-content-wrap.contact {
+
+  .contact-info-wrap {
+    display: block;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .icon {
+      height: fit-content;
+      background-color: var(--accent-color-3);
+      padding: 1rem 1.25rem;
+      border-radius: 50%;
+    }
+
+    .text {
+      display: flex;
+      align-items: center;
+      text-wrap: nowrap;
+
+
+      a {
+        color: var(--secondary-color);
+
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+  }
+
+}
