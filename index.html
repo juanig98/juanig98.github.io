@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Juan Ignacio Galarza | juanig98</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="Juan Ignacio Galarza Developer" />
+	<meta name="author" content="Juan Ignacio Galarza" />
+
+	<link rel="shortcut icon" href="/assets/favicon-BjX5vsEl.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16-BTcsAhX-.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32-DcUy69De.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192-DFUSqwAc.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512-BOpAW1RV.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-Bti8PnZW.png">
+
+  <script type="module" crossorigin src="/assets/index-BhftyVQa.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DmKCieim.css">
+</head>
+
+<body x-data="portfolioData" >
+	<div class="bg-code"> </div>
+
+	<div class="main">
+		<section class="section_tabs" style="z-index: 2; ">
+			<div class="padding-section-large">
+				<div class="tabs_height">
+					<div class="tabs_sticky-wrapper">
+						<div class="tabs_container">
+							<div class="tabs_component">
+
+
+								<!-- Navbar -->
+								<div class="nav" x-data="navbar">
+									<div class="nav-top">
+										<nav class="nav-top-content">
+											<div class="text-center">
+												<div class="author-img"></div>
+												<h1 id="logo"><a href="index.html" x-text="myname"></a></h1>
+												<span class="position" x-text="position"></span>
+											</div>
+											<nav id="main-menu" role="navigation" class="navbar">
+												<div id="navbar" class="collapse">
+													<ul>
+														<template x-for="(section, index) in sections" :key="index">
+															<li class="section-selector " :class="{'active': index==0}" :data-selector="section.code">
+																<a href="#" @click="goToSection(section.code)" x-text="section.title"></a>
+															</li>
+														</template>
+													</ul>
+												</div>
+											</nav>
+										</nav>
+									</div>
+									<div class="nav-bottom">
+										<div class="lang-selector">
+											<div class="glass-radio-group" x-data="language">
+												<input type="radio" name="lang" id="glass-esp" :checked="spanish" />
+												<label for="glass-esp">Español</label>
+												<input type="radio" name="lang" id="glass-eng" :checked="english" />
+												<label for="glass-eng">English</label>
+
+												<div class="glass-glider"></div>
+											</div>
+
+										</div>
+
+										<div class="nav-footer">
+											<ul>
+												<template x-for="(link, index) in links" :key="index">
+													<li>
+														<a :href="link.href"><i :class="link.icon"></i></a>
+													</li>
+												</template>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="content">
+
+									<!-- Nav Mobile -->
+									<div class="tab-content show-mobile tab-active" data-section="navmobile">
+										<div class="tab-content-wrap navmobile" x-data="navbarmobile">
+											<div class="nav-top">
+												<nav class="nav-top-content">
+													<div class="text-center">
+														<div class="author-img"></div>
+														<h1 id="logo"><a href="index.html" x-text="myname"></a></h1>
+														<span class="position" x-text="position"></span>
+													</div>
+													<nav id="main-menu" role="navigation" class="navbar">
+														<div id="navbar" class="collapse">
+															<ul>
+																<template x-for="(section, index) in sections" :key="index">
+																	<li class="section-selector " :class="{'active': index==0}"
+																		:data-selector="section.code">
+																		<a href="#" @click="goToSection(section.code)" x-text="section.title"></a>
+																	</li>
+																</template>
+															</ul>
+														</div>
+													</nav>
+												</nav>
+											</div>
+											<div class="nav-bottom">
+												<div class="nav-footer">
+													<ul>
+														<template x-for="(link, index) in links" :key="index">
+															<li>
+																<a :href="link.href"><i :class="link.icon"></i></a>
+															</li>
+														</template>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Welcome -->
+									<div class="tab-content" data-section="welcome">
+										<div class="tab-content-wrap welcome" x-data="welcome">
+
+											<div class="row">
+												<div class="col-md-12">
+													<div class="row row-bottom-padded-sm">
+														<div class="col-md-12">
+															<div class="about-desc">
+																<span class="heading-meta" x-text="meta"></span>
+																<h2 class="heading" x-text="title"></h2>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="row">
+
+												<div class="welcome-message">
+
+													<span href="" class="typewrite heading-meta" data-period="2000" :data-type="'['+roles+']'">
+														<span class="wrap"></span>
+													</span>
+
+													<div class="image-wrapper">
+														<div class="box">
+															<div class="spin-container">
+																<div class="shape">
+																	<div class="image"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<template x-for="(paragraph, index) in paragraphs" :key="index">
+														<p x-html="paragraph"></p>
+													</template>
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+									<!-- Skills -->
+									<div class="tab-content" data-section="skills">
+										<div class="tab-content-wrap skills" x-data="skills">
+
+											<div class="row">
+												<div class="col-md-6 col-md-offset-3 col-md-pull-3">
+													<span class="heading-meta" x-text="meta"></span>
+													<h2 class="heading" x-text="title"></h2>
+												</div>
+											</div>
+
+											<div class="row">
+												<template x-for="(item, index) in items" :key="index">
+													<div class="col-6 col-md-3">
+														<div class="skill" :class="'color-'+item.code">
+															<span class="icon2">
+																<img :src="item.image" :alt="item.code"> <span x-text="item.title"></span>
+															</span>
+														</div>
+													</div>
+												</template>
+											</div>
+
+											<div class="row mt-5">
+												<div class="col-md-12">
+													<h2 class="heading" x-text="title2"></h2>
+												</div>
+											</div>
+
+											<div class="row flex">
+												<template x-for="(item, index) in workedWith" :key="index">
+													<div class="chip" :class="'color-' + item.code">
+														<img :src="item.image">
+														<span x-text="item.title"></span>
+													</div>
+												</template>
+											</div>
+										</div>
+									</div>
+
+
+									<!-- Experience -->
+									<div class="tab-content" data-section="experience">
+										<div class="tab-content-wrap experience" x-data="experience">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="heading-meta" x-text="meta"></span>
+													<h2 class="heading" x-text="title"></h2>
+												</div>
+											</div>
+
+											<template x-for="(item, index) in items" :key="index">
+												<div>
+													<template x-if="index % 2 == 0">
+														<div class="timeline">
+															<div class="timeline__component timeline__component--bg left">
+																<h2 class="timeline__title" x-text="item.company"></h2>
+																<p class="timeline__paragraph" x-text="item.description"></p>
+																<small>Sitio: <a :href="item.url" x-text="item.url || 'Ver más'"></a></small>
+															</div>
+
+															<div class="timeline__middle">
+																<div class="timeline__point"></div>
+															</div>
+
+															<div class="timeline__component">
+																<div class="timeline__date timeline__date--left" x-text="item.period"></div>
+															</div>
+														</div>
+													</template>
+
+													<template x-if="index % 2 == 1">
+
+														<div class="timeline">
+															<div class="timeline__component">
+																<div class="timeline__date timeline__date--right" x-text="item.period"></div>
+															</div>
+
+															<div class="timeline__middle">
+																<div class="timeline__point"></div>
+															</div>
+
+															<div class="timeline__component timeline__component--bg right">
+																<h2 class="timeline__title" x-text="item.company"></h2>
+																<p class="timeline__paragraph" x-text="item.description"></p>
+																<small>Sitio: <a :href="item.url" x-text="item.url || 'Ver más'"></a></small>
+															</div>
+														</div>
+													</template>
+
+												</div>
+											</template>
+										</div>
+									</div>
+
+									<!-- Projects -->
+									<div class="tab-content" data-section="projects">
+										<div class="tab-content-wrap projects" x-data="projects">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="heading-meta" x-text="meta"></span>
+													<h2 class="heading" x-text="title"></h2>
+												</div>
+											</div>
+
+											<div class="row">
+												<template x-for="(c, cidx) in carousels" :key="cidx">
+
+													<div class="carousel mb-5" :class="{'reverse':  cidx % 2 == 0 }">
+														<template x-for="(item, index) in c.items" :key="index">
+															<article @click="openProject(item)" data-bs-toggle="modal" data-bs-target="#modal">
+																<img :src="item.image" :alt="item.title">
+																<h2 x-text="item.title"></h2>
+																<h4 x-text="item.subtitle"></h4>
+																<div class="tags">
+																	<template x-for="(tag, tidx) in item.tags" :key="tidx">
+																		<div class="tag" :class="'tag-'+tag.code" x-text="tag.name"></div>
+																	</template>
+																</div>
+															</article>
+														</template>
+													</div>
+
+												</template>
+											</div>
+										</div>
+
+									</div>
+
+									<!-- Education -->
+									<div class="tab-content" data-section="education">
+										<div class="tab-content-wrap education" x-data="education">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="heading-meta" x-text="meta"></span>
+													<h2 class="heading" x-text="title"></h2>
+												</div>
+											</div>
+
+											<div class="row">
+												<template x-for="(item, index) in items" :key="index">
+													<div class="education-items">
+														<span class="icon">
+															<i x-text="item.year"></i>
+														</span>
+														<div class="desc">
+															<h2 x-text="item.title"></h2>
+															<h3 x-text="item.period"></h3>
+															<p x-text="item.description"></p>
+															<small>Lugar: <span x-text="item.location"></span></small>
+														</div>
+													</div>
+												</template>
+											</div>
+										</div>
+									</div>
+
+									<!-- About me -->
+									<div class="tab-content" data-section="aboutme">
+										<div class="tab-content-wrap aboutme" x-data="aboutme">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="row row-bottom-padded-sm">
+														<div class="col-md-12">
+															<div class="about-desc">
+																<span class="heading-meta" x-text="meta"></span>
+																<h2 class="heading" x-text="title"></h2>
+																<template x-for="(paragraph, index) in paragraphs" :key="index">
+																	<p x-text="paragraph"></p>
+																</template>
+															</div>
+														</div>
+													</div>
+
+													<!-- <div class="row">
+														<template x-for="(item, index) in cards" :key="index">
+															<div class="col-md-3">
+																<div class="services" :class="'color-' + ((index % 4) + 1)">
+																	<span class="icon2"><i :class="item.icon" style="font-weight: bolder;"></i></span>
+																	<h3 x-text="item.title"></h3>
+																</div>
+															</div>
+														</template>
+													</div> -->
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Contact -->
+									<div class="tab-content" data-section="contact">
+										<div class="tab-content-wrap contact" x-data="contact">
+											<div class="row ">
+												<div class="col-md-12">
+													<span class="heading-meta" x-text="meta"></span>
+													<h2 class="heading" x-text="title"></h2>
+												</div>
+											</div>
+
+											<div class="contact-info-wrap">
+												<template x-for="(item, index) in info" :key="index">
+													<div class="contact-info">
+														<div class="icon">
+															<i :class="item.icon"></i>
+														</div>
+														<div class="text">
+															<template x-if="item.href">
+																<a :href="item.href" x-text="item.value"></a>
+															</template>
+															<template x-if="!item.href">
+																<span x-text="item.value"></span>
+															</template>
+														</div>
+													</div>
+												</template>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div id="projectModal" class="project-modal">
+		<div class="project-modal-body">
+			<div class="project-wrapper"> </div>
+		</div>
+	</div>
+</body>
+
+</html>

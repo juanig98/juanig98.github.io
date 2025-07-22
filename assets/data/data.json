@@ -1,0 +1,1298 @@
+{
+    "esp": {
+        "navbar": {
+            "myname": "Juan Ignacio Galarza",
+            "position": "Desarrollador FullStack",
+            "sections": [
+                {
+                    "code": "welcome",
+                    "title": "Inicio"
+                },
+                {
+                    "code": "skills",
+                    "title": "Skills"
+                },
+                {
+                    "code": "experience",
+                    "title": "Experiencia"
+                },
+                {
+                    "code": "projects",
+                    "title": "Proyectos"
+                },
+                {
+                    "code": "education",
+                    "title": "Educación"
+                },
+                {
+                    "code": "aboutme",
+                    "title": "Sobre"
+                },
+                {
+                    "code": "contact",
+                    "title": "Contacto"
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://www.facebook.com/juani.galarza1/",
+                    "icon": "icon-facebook2"
+                },
+                {
+                    "href": "https://www.instagram.com/juanigalarza/",
+                    "icon": "icon-instagram"
+                },
+                {
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/",
+                    "icon": "icon-linkedin2"
+                },
+                {
+                    "href": "https://github.com/juanig98",
+                    "icon": "icon-github"
+                },
+                {
+                    "href": "mailto:juanigalarza98@gmail.com",
+                    "icon": "icon-mail5"
+                }
+            ]
+        },
+        "navbarmobile": {
+            "myname": "Juan Ignacio Galarza",
+            "position": "Desarrollador FullStack",
+            "sections": [
+                {
+                    "code": "welcome",
+                    "title": "Inicio"
+                },
+                {
+                    "code": "skills",
+                    "title": "Skills"
+                },
+                {
+                    "code": "experience",
+                    "title": "Experiencia"
+                },
+                {
+                    "code": "projects",
+                    "title": "Proyectos"
+                },
+                {
+                    "code": "education",
+                    "title": "Educación"
+                },
+                {
+                    "code": "aboutme",
+                    "title": "Sobre"
+                },
+                {
+                    "code": "contact",
+                    "title": "Contacto"
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://www.facebook.com/juani.galarza1/",
+                    "icon": "icon-facebook2"
+                },
+                {
+                    "href": "https://www.instagram.com/juanigalarza/",
+                    "icon": "icon-instagram"
+                },
+                {
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/",
+                    "icon": "icon-linkedin2"
+                },
+                {
+                    "href": "https://github.com/juanig98",
+                    "icon": "icon-github"
+                },
+                {
+                    "href": "mailto:juanigalarza98@gmail.com",
+                    "icon": "icon-mail5"
+                }
+            ]
+        },
+        "welcome": {
+            "title": "Bienvenido a mi sitio!",
+            "image": "assets/images/me_nobg.png",
+            "roles": [
+                "\"Desarrollador Full-Stack\"",
+                "\"Analista de Sistemas\"",
+                "\"Programador\""
+            ],
+            "paragraphs": [
+                "+6 años de experiencia en <b class='emphasis'>desarrollo de software</b>. Tengo un título de <b class='emphasis'>Programador</b> y actualmente estoy terminando la carrera de <b class='emphasis'>Licenciatura en Sistemas</b> en la Universidad de Entre Ríos (UNER).",
+                "👨‍💻 Soy un apasionado del desarrollo de software con experiencia en <b class='emphasis'>análisis de requerimientos, diseño, coding y mantenimiento.</b>",
+                "Creo que cada proyecto es una oportunidad para combinar creatividad, lógica y tecnología, entregando resultados que generan <b class='emphasis-1'>valor</b>.",
+                "En este sitio encontrarás información <b class='emphasis-1'>sobre mí, mis conocimientos, proyectos y formas de contacto</b>. Espero que disfrutes explorando mi trabajo y no dudes en contactarme si tienes alguna pregunta o propuesta.",
+                "<b class='emphasis'>Gracias por visitar mi sitio web. ¡Espero que encuentres lo que buscas!</b>"
+            ]
+        },
+        "skills": {
+            "meta": "Mis especialidades",
+            "title": "Skills",
+            "title2": "También he trabajado con",
+            "items": [
+                {
+                    "title": "TypeScript",
+                    "code": "typescript",
+                    "image": "assets/images/typescript.svg"
+                },
+                {
+                    "title": "JavaScript",
+                    "code": "javascript",
+                    "image": "assets/images/javascript.svg"
+                },
+                {
+                    "title": "Angular",
+                    "code": "angular",
+                    "image": "assets/images/angular.svg"
+                },
+                {
+                    "title": "NestJS",
+                    "code": "nestjs",
+                    "image": "assets/images/nestjs.svg"
+                },
+                {
+                    "title": "NodeJS",
+                    "code": "nodejs",
+                    "image": "assets/images/nodejs.svg"
+                },
+                {
+                    "title": ".NET",
+                    "code": "net",
+                    "image": "assets/images/net.svg"
+                },
+                {
+                    "title": "C#",
+                    "code": "csharp",
+                    "image": "assets/images/c-sharp.svg"
+                },
+                {
+                    "title": "Python",
+                    "code": "python",
+                    "image": "assets/images/python.svg"
+                },
+                {
+                    "title": "MySQL",
+                    "code": "mysql",
+                    "image": "assets/images/mysql.svg"
+                },
+                {
+                    "title": "SQLServer",
+                    "code": "sqlserver",
+                    "image": "assets/images/sqlserver.svg"
+                },
+                {
+                    "title": "Unix/Linux",
+                    "code": "tux",
+                    "image": "assets/images/tux.svg"
+                },
+                {
+                    "title": "Git",
+                    "code": "git",
+                    "image": "assets/images/git.svg"
+                },
+                {
+                    "title": "PrimeNG",
+                    "code": "primeng",
+                    "image": "assets/images/primeng.svg"
+                },
+                {
+                    "title": "HTML, CSS y JS",
+                    "code": "html-css-js",
+                    "image": "assets/images/html-css-js.png"
+                },
+                {
+                    "title": "Sass",
+                    "code": "sass",
+                    "image": "assets/images/sass.svg"
+                },
+                {
+                    "title": "Bootstrap",
+                    "code": "bootstrap",
+                    "image": "assets/images/bootstrap.svg"
+                },
+                {
+                    "title": "Tailwindcss",
+                    "code": "tailwindcss",
+                    "image": "assets/images/tailwindcss.svg"
+                }
+            ],
+            "knowledges": [
+                {
+                    "icon": "icon-bulb",
+                    "title": "Análisis de requerimientos",
+                    "description": "Identifico y documento necesidades para crear soluciones claras y efectivas"
+                },
+                {
+                    "icon": "icon-code",
+                    "title": "Desarrollo de software",
+                    "description": "Desarrollo aplicaciones robustas, escalables y personalizadas con enfoque en calidad."
+                },
+                {
+                    "icon": "icon-layers2",
+                    "title": "Despliegue de aplicaciones",
+                    "description": "Implemento aplicaciones de forma eficiente, asegurando su disponibilidad y estabilidad."
+                },
+                {
+                    "icon": "icon-data",
+                    "title": "Mantenimiento de servidores",
+                    "description": "Gestiono y optimizo servidores para garantizar su seguridad y rendimiento"
+                },
+                {
+                    "icon": "icon-html-five",
+                    "title": "Diseño de páginas web",
+                    "description": "Diseño sitios modernos y responsivos, enfocados en experiencia y rendimiento."
+                },
+                {
+                    "icon": "icon-cog",
+                    "title": "Automatización de tareas",
+                    "description": "Desarrollo scripts y procesos para optimizar flujos y reducir tareas repetitivas."
+                }
+            ],
+            "workedWith": [
+                {
+                    "title": "php",
+                    "code": "php",
+                    "image": "assets/images/php.svg"
+                },
+                {
+                    "title": "Java",
+                    "code": "java",
+                    "image": "assets/images/java.svg"
+                },
+                {
+                    "title": "Vue3",
+                    "code": "vue",
+                    "image": "assets/images/vue.svg"
+                },
+                {
+                    "title": "Docker",
+                    "code": "docker",
+                    "image": "assets/images/docker.svg"
+                },
+                {
+                    "title": "bash",
+                    "code": "bash",
+                    "image": "assets/images/bash.svg"
+                },
+                {
+                    "title": "PowerShell",
+                    "code": "powershell",
+                    "image": "assets/images/powershell.svg"
+                },
+                {
+                    "title": "SVN",
+                    "code": "svn",
+                    "image": "assets/images/subversion.svg"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "code": "postgresql",
+                    "image": "assets/images/postgresql.svg"
+                },
+                {
+                    "title": "django",
+                    "code": "django",
+                    "image": "assets/images/django.svg"
+                },
+                {
+                    "title": "django-rest-framework",
+                    "code": "django-rest-framework",
+                    "image": "assets/images/django-rest-framework.png"
+                },
+                {
+                    "title": "Laravel",
+                    "code": "laravel",
+                    "image": "assets/images/laravel.svg"
+                },
+                {
+                    "title": "Ionic",
+                    "code": "ionic",
+                    "image": "assets/images/ionic.svg"
+                },
+                {
+                    "title": "Electron",
+                    "code": "electron",
+                    "image": "assets/images/electron.svg"
+                },
+                {
+                    "title": "PrimeFaces",
+                    "code": "primefaces",
+                    "image": "assets/images/primefaces.svg"
+                },
+                {
+                    "title": "JQuery",
+                    "code": "jquery",
+                    "image": "assets/images/jquery.svg"
+                },
+                {
+                    "title": "Angular Material",
+                    "code": "angular-material",
+                    "image": "assets/images/material.svg"
+                }
+            ]
+        },
+        "experience": {
+            "meta": "Experiencia",
+            "title": "Experiencia laboral",
+            "items": [
+                {
+                    "company": "Ethofy / mFlex",
+                    "period": "Diciembre, 2023",
+                    "url": "https://mflex.io",
+                    "description": "Actualmente también me encuentro trabajando en Ethofy realizando trabajos de automatización e integración de tareas."
+                },
+                {
+                    "company": "Municipalidad de Concordia",
+                    "period": "Enero, 2021",
+                    "url": "https://concordia.gob.ar/",
+                    "description": "Me uní al equipo de desarrollo de la Municipalidad de Concordia a principios del 2021. Realizando desarrollo de software, principalmente en entorno web. Durante este período realicé tareas de desarrollo, diseño de arquitecturas, mantenimiento, manejo de bases de datos, despliegue y configuración de servidores."
+                },
+                {
+                    "company": "Mis proyectos personales",
+                    "period": "Mediados, 2020",
+                    "url": "https://github.com/juanig98",
+                    "description": "A medida que adquirí conocimientos, me sentí en mayor confianza como para lanzarme a realizar trabajos propios que me dieron otra perspectiva sobre esta gran profesión."
+                },
+                {
+                    "company": "Repuestos y Servicios Galarza Hnos.",
+                    "period": "Octubre, 2018",
+                    "url": "https://repuestosgalarza.com.ar",
+                    "description": "Con el pasar del tiempo y la gran ayuda que me proveyó la carrera incursioné en el desarrollo del sistema administrativa del negocio aplicando mis conocimientos en programación. Poco a poco fui construyendo un programa que soportaba todas las tareas que anteriormente se hacian en excel o cuadernos."
+                },
+                {
+                    "company": "Repuestos y Servicios Galarza Hnos.",
+                    "period": "Diciembre, 2015",
+                    "url": "https://repuestosgalarza.com.ar",
+                    "description": "Comencé a trabajar en la empresa de mi familia, haciendo tareas administrativas, encomiendas y atención al cliente."
+                }
+            ]
+        },
+        "projects": {
+            "meta": "En que ocupo mi tiempo",
+            "title": "Mis trabajos",
+            "carousels": [
+                {
+                    "key": 1,
+                    "items": [
+                        {
+                            "title": "Adm. Galarza Hnos.",
+                            "subtitle": "Sofware de gestión",
+                            "description": "Adm. Galarza Hnos. incluye el registro de clientes, cuentas corrientes, productos (inventario), módulos de facturación, de presupuestación, de reportes y consolidación semanal.",
+                            "image": "assets/images/img_01.png",
+                            "tags": [
+                                {
+                                    "name": "php",
+                                    "code": "php"
+                                },
+                                {
+                                    "name": "Laravel",
+                                    "code": "laravel"
+                                },
+                                {
+                                    "name": "JavaScript",
+                                    "code": "javascript"
+                                },
+                                {
+                                    "name": "JQuery",
+                                    "code": "jquery"
+                                },
+                                {
+                                    "name": "Bootstrap",
+                                    "code": "bootstrap"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Portal de Servicios SIGAM",
+                            "subtitle": "Aplicación web",
+                            "description": "El portal de servicios SIGAM es una aplicación web que permite la consulta de los estudios médicos realizados en un centro de atención. Entre sus funciones, permite visualizar informes realizados y sus imágenes. Ofrece accesos diferentes para pacientes, médicos y profesionales de la salud.",
+                            "image": "assets/images/img_03.png",
+                            "tags": [
+                                {
+                                    "name": "Angular",
+                                    "code": "angular"
+                                },
+                                {
+                                    "name": "Material",
+                                    "code": "angular-material"
+                                },
+                                {
+                                    "name": "Sass",
+                                    "code": "sass"
+                                },
+                                {
+                                    "name": "Python",
+                                    "code": "python"
+                                },
+                                {
+                                    "name": "Django-Rest-Framework",
+                                    "code": "django-rest-framework"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adm. Creditin",
+                            "subtitle": "Sofware de gestión",
+                            "description": "Adm. Creditin es una aplicación de gestión de operaciones e inventario para una empresa de Compra-Venta de artículos.",
+                            "image": "assets/images/img_04.png",
+                            "tags": [
+                                {
+                                    "name": "Angular",
+                                    "code": "angular"
+                                },
+                                {
+                                    "name": "NestJS",
+                                    "code": "nestjs"
+                                },
+                                {
+                                    "name": "PrimeNG",
+                                    "code": "primeng"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Galarza Hnos. Servicios",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://taller.galarzahnos.com.ar",
+                            "image": "assets/images/img_05.png",
+                            "tags": [
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": 2,
+                    "items": [
+                        {
+                            "title": "LALpack encomiendas",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://lalpack.com.ar",
+                            "image": "assets/images/img_06.png",
+                            "tags": [
+                                {
+                                    "name": "NodeJS",
+                                    "code": "nodejs"
+                                },
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Repuestos Galarza Hnos.",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://repuestos.galarzahnos.com.ar",
+                            "image": "assets/images/img_07.png",
+                            "tags": [
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SafePass",
+                            "subtitle": "Página web",
+                            "description": "SafePass es una página web conceptual desarrollado para un trabajo práctico de diseño web donde se proponía realizar un diseño particular basandosé en algún sitio existente. En mi caso tomé como referencia el sitio de Stonehaven.",
+                            "url": "https://juanig98safepass.netlify.app/",
+                            "image": "assets/images/img_08.png",
+                            "tags": [
+                                {
+                                    "name": "NodeJS",
+                                    "code": "nodejs"
+                                },
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                },
+                                {
+                                    "name": "Sass",
+                                    "code": "sass"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Colas (calculadora)",
+                            "subtitle": "Aplicación de escritorio",
+                            "description": "Proyecto realizado en PyQt5. Inspirado en la planilla de cálculo 'QUEUING TEMPLATES' (David W. Ashley). Se abordan modelos como M/M/S, M/M/S con cola finita, M/M/S con población finita y M/G/1.",
+                            "url": "https://github.com/juanig98/FCAD-UNER",
+                            "image": "assets/images/img_02.png",
+                            "tags": [
+                                {
+                                    "name": "Python",
+                                    "code": "python"
+                                },
+                                {
+                                    "name": "PyQt5",
+                                    "code": "pyqt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "meta": "Educación",
+            "title": "Educación",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Licenciatura en Sistemas (Edu. Universitaria)",
+                    "period": "01/2016 - actualidad",
+                    "year": "2025",
+                    "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                    "description": "Estudiante de quinto año de la carrera de Licenciatura en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos.",
+                    "location": "Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)"
+                },
+                {
+                    "id": 2,
+                    "title": "Programador (Edu. Universitaria)",
+                    "period": "01/2016 - 03/2021",
+                    "year": "2021",
+                    "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                    "description": "Programador en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos.",
+                    "location": "Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)"
+                },
+                {
+                    "id": 3,
+                    "title": "Bachiller en Economía y Administración (Edu. Secundaria)",
+                    "period": "01/2010 - 12/2015",
+                    "year": "2015",
+                    "institution": "Instituto Nuestra Señora de los Ángeles D-53",
+                    "description": "Egresado del Instituto Nuestra Señora de los Ángeles D-53.",
+                    "location": "Sarmiento 824, Concordia, Entre Ríos, Argentina"
+                }
+            ]
+        },
+        "aboutme": {
+            "meta": "¿Quién soy?",
+            "title": "Sobre mí",
+            "paragraphs": [
+                "Me llamo Juan Ignacio Galarza, Desarrollador Full-Stack con más de 6 años de experiencia en desarrollo de software. Desde 2017, la curiosidad por la tecnología me llevó a explorar el mundo de la programación, y desde entonces no he parado de aprender ni de crecer profesionalmente.",
+                "A lo largo de mi carrera he trabajado en el sector público y privado, participando en proyectos que abarcan desde la automatización de procesos de negocio hasta el desarrollo y mantenimiento de aplicaciones web escalables. Me especializo en tecnologías como Angular y NestJS, pero mantengo una mentalidad abierta: disfruto explorar nuevas herramientas y adaptarme a los desafíos.",
+                "Soy un apasionado del análisis, el diseño estructurado y el desarrollo de soluciones que aporten valor real. He desempeñado tareas como análisis de requerimientos, diseño de arquitecturas, desarrollo full-stack, mantenimiento de servidores y despliegue de aplicaciones en entornos productivos.",
+                "Actualmente, estoy finalizando la carrera de Licenciatura en Sistemas en la Universidad Nacional de Entre Ríos (UNER), y ya cuento con el título de Programador. Me considero una persona proactiva, curiosa, íntegra y motivada, siempre enfocada en aportar al objetivo común.",
+                "Mi mayor expectativa profesional es seguir creciendo, aprender constantemente y formar parte de equipos que valoren el compromiso, el aprendizaje continuo y el trabajo bien hecho. Busco proyectos que me desafíen y me permitan desarrollarme profesionalmente."
+            ],
+            "cards": [
+                {
+                    "icon": "icon-html-five",
+                    "title": "Diseño web"
+                },
+                {
+                    "icon": "icon-data",
+                    "title": "Bases de datos"
+                },
+                {
+                    "icon": "icon-phone3",
+                    "title": "Software"
+                },
+                {
+                    "icon": "icon-bulb",
+                    "title": "Automatización"
+                }
+            ]
+        },
+        "contact": {
+            "meta": "Por si quieres comunicarte conmigo",
+            "title": "Contacto",
+            "info": [
+                {
+                    "type": "email",
+                    "icon": "icon-mail5",
+                    "value": "juanigalarza98@gmail.com",
+                    "href": "mailto:juanigalarza98@gmail.com"
+                },
+                {
+                    "type": "phone",
+                    "icon": "icon-phone",
+                    "value": "+54 345 6 262-300",
+                    "href": "tel:+543456262300"
+                },
+                {
+                    "type": "address",
+                    "icon": "icon-map",
+                    "value": "Rawson 435, Concordia, Entre Ríos"
+                },
+                {
+                    "type": "linkedin",
+                    "icon": "icon-linkedin2",
+                    "value": "Juan Ignacio Galarza",
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/"
+                },
+                {
+                    "type": "Facebook",
+                    "icon": "icon-facebook2",
+                    "value": "Juani Galarza",
+                    "href": "https://www.facebook.com/juani.galarza1"
+                },
+                {
+                    "type": "linkedin",
+                    "icon": "icon-instagram",
+                    "value": "@juanigalarza",
+                    "href": "https://www.instagram.com/juanigalarza/"
+                }
+            ]
+        }
+    },
+    "eng": {
+        "navbar": {
+            "myname": "Juan Ignacio Galarza",
+            "position": "Developer FullStack",
+            "sections": [
+                {
+                    "code": "welcome",
+                    "title": "Index"
+                },
+                {
+                    "code": "skills",
+                    "title": "Skills"
+                },
+                {
+                    "code": "experience",
+                    "title": "Experience"
+                },
+                {
+                    "code": "projects",
+                    "title": "Proyects"
+                },
+                {
+                    "code": "education",
+                    "title": "Education"
+                },
+                {
+                    "code": "aboutme",
+                    "title": "About me"
+                },
+                {
+                    "code": "contact",
+                    "title": "Contact"
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://www.facebook.com/juani.galarza1/",
+                    "icon": "icon-facebook2"
+                },
+                {
+                    "href": "https://www.instagram.com/juanigalarza/",
+                    "icon": "icon-instagram"
+                },
+                {
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/",
+                    "icon": "icon-linkedin2"
+                },
+                {
+                    "href": "https://github.com/juanig98",
+                    "icon": "icon-github"
+                },
+                {
+                    "href": "mailto:juanigalarza98@gmail.com",
+                    "icon": "icon-mail5"
+                }
+            ]
+        },
+        "navbarmobile": {
+            "myname": "Juan Ignacio Galarza",
+            "position": "Developer FullStack",
+            "sections": [
+                {
+                    "code": "welcome",
+                    "title": "Index"
+                },
+                {
+                    "code": "skills",
+                    "title": "Skills"
+                },
+                {
+                    "code": "experience",
+                    "title": "Experience"
+                },
+                {
+                    "code": "projects",
+                    "title": "Proyects"
+                },
+                {
+                    "code": "education",
+                    "title": "Education"
+                },
+                {
+                    "code": "aboutme",
+                    "title": "About me"
+                },
+                {
+                    "code": "contact",
+                    "title": "Contact"
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://www.facebook.com/juani.galarza1/",
+                    "icon": "icon-facebook2"
+                },
+                {
+                    "href": "https://www.instagram.com/juanigalarza/",
+                    "icon": "icon-instagram"
+                },
+                {
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/",
+                    "icon": "icon-linkedin2"
+                },
+                {
+                    "href": "https://github.com/juanig98",
+                    "icon": "icon-github"
+                },
+                {
+                    "href": "mailto:juanigalarza98@gmail.com",
+                    "icon": "icon-mail5"
+                }
+            ]
+        },
+        "welcome": {
+            "title": "Bienvenido a mi sitio!",
+            "image": "assets/images/me_nobg.png",
+            "roles": [
+                "\"Developer Full-Stack\"",
+                "\"Analist\"",
+                "\"Programmer\""
+            ],
+            "paragraphs": [
+                "6+ years of experience in <b class='emphasis'>software development</b>. I have a <b class='emphasis'>Programmer</b> degree and I am currently finishing a <b class='emphasis'>Bachelor's Degree in Systems</b> at the University of Entre Ríos (UNER).",
+                "👨‍💻 I am passionate about software development with experience in <b class='emphasis'>requirements analysis, design, coding, and maintenance.</b>",
+                "I believe that every project is an opportunity to combine creativity, logic, and technology, delivering results that generate <b class='emphasis-1'>value</b>.",
+                "On this site you will find information <b class='emphasis-1'>about me, my knowledge, projects, and contact methods</b>. I hope you enjoy exploring my work, and please don't hesitate to contact me if you have any questions or suggestions.",
+                "<b class='emphasis'>Thank you for Visit my website. I hope you find what you're looking for!"
+            ]
+        },
+        "skills": {
+            "meta": "Mis especialidades",
+            "title": "Skills",
+            "title2": "También he trabajado con",
+            "items": [
+                {
+                    "title": "TypeScript",
+                    "code": "typescript",
+                    "image": "assets/images/typescript.svg"
+                },
+                {
+                    "title": "JavaScript",
+                    "code": "javascript",
+                    "image": "assets/images/javascript.svg"
+                },
+                {
+                    "title": "Angular",
+                    "code": "angular",
+                    "image": "assets/images/angular.svg"
+                },
+                {
+                    "title": "NestJS",
+                    "code": "nestjs",
+                    "image": "assets/images/nestjs.svg"
+                },
+                {
+                    "title": "NodeJS",
+                    "code": "nodejs",
+                    "image": "assets/images/nodejs.svg"
+                },
+                {
+                    "title": ".NET",
+                    "code": "net",
+                    "image": "assets/images/net.svg"
+                },
+                {
+                    "title": "C#",
+                    "code": "csharp",
+                    "image": "assets/images/c-sharp.svg"
+                },
+                {
+                    "title": "Python",
+                    "code": "python",
+                    "image": "assets/images/python.svg"
+                },
+                {
+                    "title": "MySQL",
+                    "code": "mysql",
+                    "image": "assets/images/mysql.svg"
+                },
+                {
+                    "title": "SQLServer",
+                    "code": "sqlserver",
+                    "image": "assets/images/sqlserver.svg"
+                },
+                {
+                    "title": "Unix/Linux",
+                    "code": "tux",
+                    "image": "assets/images/tux.svg"
+                },
+                {
+                    "title": "Git",
+                    "code": "git",
+                    "image": "assets/images/git.svg"
+                },
+                {
+                    "title": "PrimeNG",
+                    "code": "primeng",
+                    "image": "assets/images/primeng.svg"
+                },
+                {
+                    "title": "HTML, CSS y JS",
+                    "code": "html-css-js",
+                    "image": "assets/images/html-css-js.png"
+                },
+                {
+                    "title": "Sass",
+                    "code": "sass",
+                    "image": "assets/images/sass.svg"
+                },
+                {
+                    "title": "Bootstrap",
+                    "code": "bootstrap",
+                    "image": "assets/images/bootstrap.svg"
+                },
+                {
+                    "title": "Tailwindcss",
+                    "code": "tailwindcss",
+                    "image": "assets/images/tailwindcss.svg"
+                }
+            ],
+            "knowledges": [
+                {
+                    "icon": "icon-bulb",
+                    "title": "Análisis de requerimientos",
+                    "description": "Identifico y documento necesidades para crear soluciones claras y efectivas"
+                },
+                {
+                    "icon": "icon-code",
+                    "title": "Desarrollo de software",
+                    "description": "Desarrollo aplicaciones robustas, escalables y personalizadas con enfoque en calidad."
+                },
+                {
+                    "icon": "icon-layers2",
+                    "title": "Despliegue de aplicaciones",
+                    "description": "Implemento aplicaciones de forma eficiente, asegurando su disponibilidad y estabilidad."
+                },
+                {
+                    "icon": "icon-data",
+                    "title": "Mantenimiento de servidores",
+                    "description": "Gestiono y optimizo servidores para garantizar su seguridad y rendimiento"
+                },
+                {
+                    "icon": "icon-html-five",
+                    "title": "Diseño de páginas web",
+                    "description": "Diseño sitios modernos y responsivos, enfocados en experiencia y rendimiento."
+                },
+                {
+                    "icon": "icon-cog",
+                    "title": "Automatización de tareas",
+                    "description": "Desarrollo scripts y procesos para optimizar flujos y reducir tareas repetitivas."
+                }
+            ],
+            "workedWith": [
+                {
+                    "title": "php",
+                    "code": "php",
+                    "image": "assets/images/php.svg"
+                },
+                {
+                    "title": "Java",
+                    "code": "java",
+                    "image": "assets/images/java.svg"
+                },
+                {
+                    "title": "Vue3",
+                    "code": "vue",
+                    "image": "assets/images/vue.svg"
+                },
+                {
+                    "title": "Docker",
+                    "code": "docker",
+                    "image": "assets/images/docker.svg"
+                },
+                {
+                    "title": "bash",
+                    "code": "bash",
+                    "image": "assets/images/bash.svg"
+                },
+                {
+                    "title": "PowerShell",
+                    "code": "powershell",
+                    "image": "assets/images/powershell.svg"
+                },
+                {
+                    "title": "SVN",
+                    "code": "svn",
+                    "image": "assets/images/subversion.svg"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "code": "postgresql",
+                    "image": "assets/images/postgresql.svg"
+                },
+                {
+                    "title": "django",
+                    "code": "django",
+                    "image": "assets/images/django.svg"
+                },
+                {
+                    "title": "django-rest-framework",
+                    "code": "django-rest-framework",
+                    "image": "assets/images/django-rest-framework.png"
+                },
+                {
+                    "title": "Laravel",
+                    "code": "laravel",
+                    "image": "assets/images/laravel.svg"
+                },
+                {
+                    "title": "Ionic",
+                    "code": "ionic",
+                    "image": "assets/images/ionic.svg"
+                },
+                {
+                    "title": "Electron",
+                    "code": "electron",
+                    "image": "assets/images/electron.svg"
+                },
+                {
+                    "title": "PrimeFaces",
+                    "code": "primefaces",
+                    "image": "assets/images/primefaces.svg"
+                },
+                {
+                    "title": "JQuery",
+                    "code": "jquery",
+                    "image": "assets/images/jquery.svg"
+                },
+                {
+                    "title": "Angular Material",
+                    "code": "angular-material",
+                    "image": "assets/images/material.svg"
+                }
+            ]
+        },
+        "experience": {
+            "meta": "Experiencia",
+            "title": "Experiencia laboral",
+            "items": [
+                {
+                    "company": "Ethofy / mFlex",
+                    "period": "Diciembre, 2023",
+                    "url": "https://mflex.io",
+                    "description": "Actualmente también me encuentro trabajando en Ethofy realizando trabajos de automatización e integración de tareas."
+                },
+                {
+                    "company": "Municipalidad de Concordia",
+                    "period": "Enero, 2021",
+                    "url": "https://concordia.gob.ar/",
+                    "description": "Me uní al equipo de desarrollo de la Municipalidad de Concordia a principios del 2021. Realizando desarrollo de software, principalmente en entorno web. Durante este período realicé tareas de desarrollo, diseño de arquitecturas, mantenimiento, manejo de bases de datos, despliegue y configuración de servidores."
+                },
+                {
+                    "company": "Mis proyectos personales",
+                    "period": "Mediados, 2020",
+                    "url": "https://github.com/juanig98",
+                    "description": "A medida que adquirí conocimientos, me sentí en mayor confianza como para lanzarme a realizar trabajos propios que me dieron otra perspectiva sobre esta gran profesión."
+                },
+                {
+                    "company": "Repuestos y Servicios Galarza Hnos.",
+                    "period": "Octubre, 2018",
+                    "url": "https://repuestosgalarza.com.ar",
+                    "description": "Con el pasar del tiempo y la gran ayuda que me proveyó la carrera incursioné en el desarrollo del sistema administrativa del negocio aplicando mis conocimientos en programación. Poco a poco fui construyendo un programa que soportaba todas las tareas que anteriormente se hacian en excel o cuadernos."
+                },
+                {
+                    "company": "Repuestos y Servicios Galarza Hnos.",
+                    "period": "Diciembre, 2015",
+                    "url": "https://repuestosgalarza.com.ar",
+                    "description": "Comencé a trabajar en la empresa de mi familia, haciendo tareas administrativas, encomiendas y atención al cliente."
+                }
+            ]
+        },
+        "projects": {
+            "meta": "En que ocupo mi tiempo",
+            "title": "Mis trabajos",
+            "carousels": [
+                {
+                    "key": 1,
+                    "items": [
+                        {
+                            "title": "Adm. Galarza Hnos.",
+                            "subtitle": "Sofware de gestión",
+                            "description": "Adm. Galarza Hnos. incluye el registro de clientes, cuentas corrientes, productos (inventario), módulos de facturación, de presupuestación, de reportes y consolidación semanal.",
+                            "image": "assets/images/img_01.png",
+                            "tags": [
+                                {
+                                    "name": "php",
+                                    "code": "php"
+                                },
+                                {
+                                    "name": "Laravel",
+                                    "code": "laravel"
+                                },
+                                {
+                                    "name": "JavaScript",
+                                    "code": "javascript"
+                                },
+                                {
+                                    "name": "JQuery",
+                                    "code": "jquery"
+                                },
+                                {
+                                    "name": "Bootstrap",
+                                    "code": "bootstrap"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Portal de Servicios SIGAM",
+                            "subtitle": "Aplicación web",
+                            "description": "El portal de servicios SIGAM es una aplicación web que permite la consulta de los estudios médicos realizados en un centro de atención. Entre sus funciones, permite visualizar informes realizados y sus imágenes. Ofrece accesos diferentes para pacientes, médicos y profesionales de la salud.",
+                            "image": "assets/images/img_03.png",
+                            "tags": [
+                                {
+                                    "name": "Angular",
+                                    "code": "angular"
+                                },
+                                {
+                                    "name": "Material",
+                                    "code": "angular-material"
+                                },
+                                {
+                                    "name": "Sass",
+                                    "code": "sass"
+                                },
+                                {
+                                    "name": "Python",
+                                    "code": "python"
+                                },
+                                {
+                                    "name": "Django-Rest-Framework",
+                                    "code": "django-rest-framework"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adm. Creditin",
+                            "subtitle": "Sofware de gestión",
+                            "description": "Adm. Creditin es una aplicación de gestión de operaciones e inventario para una empresa de Compra-Venta de artículos.",
+                            "image": "assets/images/img_04.png",
+                            "tags": [
+                                {
+                                    "name": "Angular",
+                                    "code": "angular"
+                                },
+                                {
+                                    "name": "NestJS",
+                                    "code": "nestjs"
+                                },
+                                {
+                                    "name": "PrimeNG",
+                                    "code": "primeng"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Galarza Hnos. Servicios",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://taller.galarzahnos.com.ar",
+                            "image": "assets/images/img_05.png",
+                            "tags": [
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": 2,
+                    "items": [
+                        {
+                            "title": "LALpack encomiendas",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://lalpack.com.ar",
+                            "image": "assets/images/img_06.png",
+                            "tags": [
+                                {
+                                    "name": "NodeJS",
+                                    "code": "nodejs"
+                                },
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Repuestos Galarza Hnos.",
+                            "subtitle": "Página web",
+                            "description": "Página web de la empresa, con el objetivo de presentar de forma clara su identidad, servicios principales y medios de contacto",
+                            "url": "https://repuestos.galarzahnos.com.ar",
+                            "image": "assets/images/img_07.png",
+                            "tags": [
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SafePass",
+                            "subtitle": "Página web",
+                            "description": "SafePass es una página web conceptual desarrollado para un trabajo práctico de diseño web donde se proponía realizar un diseño particular basandosé en algún sitio existente. En mi caso tomé como referencia el sitio de Stonehaven.",
+                            "url": "https://juanig98safepass.netlify.app/",
+                            "image": "assets/images/img_08.png",
+                            "tags": [
+                                {
+                                    "name": "NodeJS",
+                                    "code": "nodejs"
+                                },
+                                {
+                                    "name": "HTML, CSS y JS",
+                                    "code": "html-css-js"
+                                },
+                                {
+                                    "name": "Sass",
+                                    "code": "sass"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Colas (calculadora)",
+                            "subtitle": "Aplicación de escritorio",
+                            "description": "Proyecto realizado en PyQt5. Inspirado en la planilla de cálculo 'QUEUING TEMPLATES' (David W. Ashley). Se abordan modelos como M/M/S, M/M/S con cola finita, M/M/S con población finita y M/G/1.",
+                            "url": "https://github.com/juanig98/FCAD-UNER",
+                            "image": "assets/images/img_02.png",
+                            "tags": [
+                                {
+                                    "name": "Python",
+                                    "code": "python"
+                                },
+                                {
+                                    "name": "PyQt5",
+                                    "code": "pyqt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "meta": "Educación",
+            "title": "Educación",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Licenciatura en Sistemas (Edu. Universitaria)",
+                    "period": "01/2016 - actualidad",
+                    "year": "2025",
+                    "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                    "description": "Estudiante de quinto año de la carrera de Licenciatura en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos.",
+                    "location": "Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)"
+                },
+                {
+                    "id": 2,
+                    "title": "Programador (Edu. Universitaria)",
+                    "period": "01/2016 - 03/2021",
+                    "year": "2021",
+                    "institution": "Facultad de Ciencias de la Administración (U.N.E.R.)",
+                    "description": "Programador en Sistemas de la Facultad de Ciencias de la Administración, Universidad Nacional de Entre Ríos.",
+                    "location": "Monseñor Tavella 1424, Concordia, Entre Ríos, Argentina)"
+                },
+                {
+                    "id": 3,
+                    "title": "Bachiller en Economía y Administración (Edu. Secundaria)",
+                    "period": "01/2010 - 12/2015",
+                    "year": "2015",
+                    "institution": "Instituto Nuestra Señora de los Ángeles D-53",
+                    "description": "Egresado del Instituto Nuestra Señora de los Ángeles D-53.",
+                    "location": "Sarmiento 824, Concordia, Entre Ríos, Argentina"
+                }
+            ]
+        },
+        "aboutme": {
+            "meta": "¿Quién soy?",
+            "title": "Sobre mí",
+            "paragraphs": [
+                "Me llamo Juan Ignacio Galarza, Desarrollador Full-Stack con más de 6 años de experiencia en desarrollo de software. Desde 2017, la curiosidad por la tecnología me llevó a explorar el mundo de la programación, y desde entonces no he parado de aprender ni de crecer profesionalmente.",
+                "A lo largo de mi carrera he trabajado en el sector público y privado, participando en proyectos que abarcan desde la automatización de procesos de negocio hasta el desarrollo y mantenimiento de aplicaciones web escalables. Me especializo en tecnologías como Angular y NestJS, pero mantengo una mentalidad abierta: disfruto explorar nuevas herramientas y adaptarme a los desafíos.",
+                "Soy un apasionado del análisis, el diseño estructurado y el desarrollo de soluciones que aporten valor real. He desempeñado tareas como análisis de requerimientos, diseño de arquitecturas, desarrollo full-stack, mantenimiento de servidores y despliegue de aplicaciones en entornos productivos.",
+                "Actualmente, estoy finalizando la carrera de Licenciatura en Sistemas en la Universidad Nacional de Entre Ríos (UNER), y ya cuento con el título de Programador. Me considero una persona proactiva, curiosa, íntegra y motivada, siempre enfocada en aportar al objetivo común.",
+                "Mi mayor expectativa profesional es seguir creciendo, aprender constantemente y formar parte de equipos que valoren el compromiso, el aprendizaje continuo y el trabajo bien hecho. Busco proyectos que me desafíen y me permitan desarrollarme profesionalmente."
+            ],
+            "cards": [
+                {
+                    "icon": "icon-html-five",
+                    "title": "Diseño web"
+                },
+                {
+                    "icon": "icon-data",
+                    "title": "Bases de datos"
+                },
+                {
+                    "icon": "icon-phone3",
+                    "title": "Software"
+                },
+                {
+                    "icon": "icon-bulb",
+                    "title": "Automatización"
+                }
+            ]
+        },
+        "contact": {
+            "meta": "Por si quieres comunicarte conmigo",
+            "title": "Contacto",
+            "info": [
+                {
+                    "type": "email",
+                    "icon": "icon-mail5",
+                    "value": "juanigalarza98@gmail.com",
+                    "href": "mailto:juanigalarza98@gmail.com"
+                },
+                {
+                    "type": "phone",
+                    "icon": "icon-phone",
+                    "value": "+54 345 6 262-300",
+                    "href": "tel:+543456262300"
+                },
+                {
+                    "type": "address",
+                    "icon": "icon-map",
+                    "value": "Rawson 435, Concordia, Entre Ríos"
+                },
+                {
+                    "type": "linkedin",
+                    "icon": "icon-linkedin2",
+                    "value": "Juan Ignacio Galarza",
+                    "href": "https://www.linkedin.com/in/juan-ignacio-galarza-981759183/"
+                },
+                {
+                    "type": "Facebook",
+                    "icon": "icon-facebook2",
+                    "value": "Juani Galarza",
+                    "href": "https://www.facebook.com/juani.galarza1"
+                },
+                {
+                    "type": "linkedin",
+                    "icon": "icon-instagram",
+                    "value": "@juanigalarza",
+                    "href": "https://www.instagram.com/juanigalarza/"
+                }
+            ]
+        }
+    }
+}
