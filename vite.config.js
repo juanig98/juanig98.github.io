@@ -11,7 +11,6 @@ export default defineConfig({
         open: true
     },
     css: {
-        
         preprocessorOptions: {
             scss: {
                 silenceDeprecations: [
@@ -23,6 +22,5 @@ export default defineConfig({
             },
 
         },
-
-    },
+    }
 })

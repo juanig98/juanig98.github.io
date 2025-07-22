@@ -18,6 +18,7 @@
     "dev": "vite",
     "build:sass": "sass src/scss:dist/assets",
     "build": "vite build",
+    "postbuild": "cp -r src/assets dist/",
     "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
