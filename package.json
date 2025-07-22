@@ -1,0 +1,38 @@
+{
+  "name": "juanig98.github.io",
+  "version": "3.0.0-alpha1",
+  "description": "Personal page",
+  "homepage": "https://github.com/juanig98/juanig98.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/juanig98/juanig98.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanig98/juanig98.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Juan Ignacio Galarza",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build:sass": "sass src/scss:dist/assets",
+    "build": "vite build",
+    "postbuild": "cp -r src/assets dist/",
+    "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "alpinejs": "^3.14.9",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.7",
+    "gsap": "^3.13.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "vite": "^7.0.1"
+  }
+}

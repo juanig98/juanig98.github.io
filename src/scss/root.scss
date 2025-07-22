@@ -1,0 +1,214 @@
+:root {
+    --primary-color: #141215;
+    --primary-color-light: #302f31;
+    --primary-color-medium: #222024;
+    --secondary-color: #fff;
+    --accent-color: #8550bb;
+    --accent-color-1: #4f316d;
+    --accent-color-2: #512f72;
+    --accent-color-3: #502c75;
+    --accent-color-4: #4c2772;
+    --accent-color-5: #4a2272;
+    --accent-color-6: #441a6e;
+    --gray-700: #424242;
+    --gray-500: #737373;
+    --black: black;
+    --border-radius--tiny: .375rem;
+    --light-grey: #f4f4f4;
+    --border-radius--xtiny: .25rem;
+    --gray-800: #292929;
+    --gray-25: #fcfcfc;
+    --gray-400: #a3a3a3;
+    --gray-50: #fafafa;
+    --gray-900: #141414;
+    --dark-green: #25fabe;
+    --green: #61ffc9;
+    --nav--gray-800: #292929;
+    --nav--gray-50: #fafafa;
+    --gray-600: #525252;
+    --white: white;
+    --border-radius--xxsmall: .5rem;
+    --gray-300: #d6d6d6;
+    --gray-200: #e5e5e5;
+    --gray-100: whitesmoke;
+    --border-radius--xlarge: 2rem;
+    --border-radius--xxtiny: .175rem;
+    --border-radius--large-still: 1.75rem;
+    --border-radius--0: 0rem;
+    --border-radius--medium: 1.25rem;
+    --border-radius--large-change: 1.75rem;
+    --border-radius--xmedium: 1.5rem;
+    --border-radius--xsmall: .75rem;
+    --border-radius--small: 1rem;
+    --border-radius--home-hero: 2rem;
+    --nav--gray-700: #424242;
+    --border-radius--about-image: 2rem;
+    --border-radius--button-circle: 100vw;
+    --nav--circle: #292929;
+    --nav--y: #61ffc9;
+}
+
+$tech-colors: (
+    typescript: #3178c6,
+    javascript: #f7df1e,
+    python: #FECE28,
+    php: #777bb3,
+    java: #db380e,
+    csharp: #A179DC,
+    mysql: #d3841f,
+    postgresql: #336791,
+    sqlserver: #af2f2b,
+    tux: #eeb915,
+    git: #f05133,
+    nestjs: #e0234e,
+    angular: #dd0031,
+    laravel: #f02c20,
+    django-rest-framework: #A20000,
+    ionic: #176bff,
+    primeng: #dd0031,
+    bootstrap: #8612fb,
+    primefaces: #cfd7dc,
+    jquery: #21609b,
+    tailwindcss: #07b6d5,
+    net: #512bd4,
+    django: #2ba977,
+    svn: #809CC9,
+    html-css-js: #B5CAF9,
+    sass: #df7cac,
+    electron: #47848f,
+    docker: #019BC6,
+    bash: #FFFFFF,
+    powershell: #2671BE,
+    nodejs: #79B362,
+    vue: #41b883,
+    angular-material: #FFA726,
+    pyqt: #3671A1,
+);
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../assets/fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../assets/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"),
+        url("../assets/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+        url("../assets/fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+        url("../assets/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CascadiaCode";
+    src: url("../assets/fonts/cascadiacode/CascadiaCode.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CascadiaCode";
+    src: url("../assets/fonts/cascadiacode/CascadiaCodeItalic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "CascadiaCodeMono";
+    src: url("../assets/fonts/cascadiacode/CascadiaCodeMono.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #fff;
+    font-family: "CascadiaCode", Arial, sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+a {
+    color: var(--accent-color);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: var(--accent-color);
+    outline: none;
+    text-decoration: none !important;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    font-family: "CascadiaCode", Georgia, serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+figure {
+    margin-bottom: 2.5em;
+    float: left;
+    width: 100%;
+}
+
+figure figcaption {
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 0px auto;
+    color: #b3b3b3;
+    font-style: italic;
+    font-family: "CascadiaCode", Arial, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    figure figcaption {
+        width: 100%;
+    }
+}
+
+::-webkit-selection {
+    color: #fff;
+    background: var(--accent-color);
+}
+
+::-moz-selection {
+    color: #fff;
+    background: var(--accent-color);
+}
+
+::selection {
+    color: #fff;
+    background: var(--accent-color);
+}
+
